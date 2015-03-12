@@ -919,7 +919,6 @@ img.lightbulb {
 
 /* Doc links in SQL */
 .cm-sql-doc {
-{
 	text-decoration: none;
 	border-bottom: 1px dotted #999999;
 	color: inherit !important;
