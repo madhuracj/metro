@@ -993,15 +993,6 @@ div.success
 h1.success,
 div.success {
     border-color: <?php echo $GLOBALS['cfg']['BrowseSuccessColor']; ?>;
-	<?php if ($GLOBALS['cfg']['ErrorIconic']) { ?>
-	background-image: url(<?php echo $_SESSION['PMA_Theme']->getImgPath(); ?>s_success.png);
-	background-repeat: no-repeat;
-	<?php if ($GLOBALS['text_dir'] === 'ltr') { ?>
-	background-position: 5px 50%;
-	<?php } else { ?>
-	background-position: 97% 50%;
-	<?php } ?>
-	<?php } ?>
 }
 
 .notice, .footnotes
@@ -1015,15 +1006,6 @@ div.notice,
 div.footnotes
 {
 	border-color: <?php echo $GLOBALS['cfg']['BlueHeader']; ?>;
-	<?php if ($GLOBALS['cfg']['ErrorIconic']) { ?>
-	background-image: url(<?php echo $_SESSION['PMA_Theme']->getImgPath(); ?>s_notice.png);
-	background-repeat: no-repeat;
-	<?php if ($GLOBALS['text_dir'] === 'ltr') { ?>
-	background-position: 5px 50%;
-	<?php } else { ?>
-    background-position: 97% 50%;
-	<?php } ?>
-	<?php } ?>
 }
 
 .notice a
@@ -1042,15 +1024,6 @@ h1.error,
 div.error
 {
 	border-color: <?php echo $GLOBALS['cfg']['MainColor']; ?>;
-	<?php if ($GLOBALS['cfg']['ErrorIconic']) { ?>
-	background-image: url(<?php echo $_SESSION['PMA_Theme']->getImgPath(); ?>s_error.png);
-	background-repeat:  no-repeat;
-	<?php if ($GLOBALS['text_dir'] === 'ltr') { ?>
-	background-position: 5px 50%;
-	<?php } else { ?>
-	background-position: 97% 50%;
-	<?php } ?>
-	<?php } ?>
 }
 
 .confirmation
