@@ -105,16 +105,22 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #f22;}
   color: black;
   font-family: <?php echo $GLOBALS['cfg']['FontFamilyFixed']; ?> !important;
   height: <?php echo ceil($GLOBALS['cfg']['TextareaRows'] * 1.2); ?>em;
+  resize: vertical;
+  max-height: 600px;
+  min-height: 75px;
+  border: 1px solid <?php echo $GLOBALS['cfg']['BorderColor']; ?>;
 }
 
-.CodeMirror *
-{
+.CodeMirror * {
 	font-family: <?php echo $GLOBALS['cfg']['FontFamilyFixed']; ?>;
 }
 
-.CodeMirror br
-{
+.CodeMirror br {
 	display: block !important;
+}
+
+#inline_editor_outer .CodeMirror {
+    height: <?php echo ceil($GLOBALS['cfg']['TextareaRows'] * 0.4); ?>em;
 }
 
 .CodeMirror-scroll {
