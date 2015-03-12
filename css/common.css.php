@@ -935,7 +935,7 @@ td .icon {
 }
 
 /* message boxes: error, confirmation */
-#pma_errors {
+#pma_errors, #pma_demo {
     padding: 20px;
 }
 
