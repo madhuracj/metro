@@ -219,7 +219,7 @@ img.ic_b_home, img.ic_s_loggoff, img.ic_b_selboard, img.ic_b_docs, img.ic_b_sqlh
 #pma_navigation #databaseList,
 #pma_navigation div.pageselector.dbselector {
     text-align: center;
-    margin: 5px 10px 0px;
+    padding: 5px 10px 0px;
     border: 0;
 }
 
