@@ -451,7 +451,7 @@ form {
     display: inline;
 }
 
-input[type=text], input[type=password]
+input[type=text], input[type=password], input[type=number]
 {
 	border: 1px solid <?php echo $GLOBALS['cfg']['BrowseGrayColor']; ?>;
 	color: <?php echo $GLOBALS['cfg']['ThColor']; ?>;
@@ -461,7 +461,7 @@ input[type=text], input[type=password]
 	background-color: <?php echo $GLOBALS['cfg']['MainBackground']; ?>;
 }
 
-input[type=text]:focus, input[type=password]:focus
+input[type=text]:focus, input[type=password]:focus, input[type=number]:focus
 {
 	border: 1px solid <?php echo $GLOBALS['cfg']['NaviHoverBackground']; ?>;
 	color: <?php echo $GLOBALS['cfg']['MainColor']; ?>;
