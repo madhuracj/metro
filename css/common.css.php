@@ -2264,7 +2264,9 @@ div.upload_progress_bar_inner
     height: 12px;
     margin: 1px;
     overflow: hidden;
+    <?php if ($GLOBALS['cfg']['BrowseMarkerEnable']) { ?>
     color: <?php echo $GLOBALS['cfg']['BrowseMarkerColor']; ?>;
+    <?php } ?>
     position: relative;
 }
 
