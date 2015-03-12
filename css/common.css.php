@@ -3322,3 +3322,17 @@ body .ui-widget {
 .ui-dialog fieldset legend a {
     color: #235A81;
 }
+
+.report-data {
+    height:13em;
+    overflow:scroll;
+    width:570px;
+    border: solid 1px;
+    background: white;
+    padding: 2px;
+}
+
+.report-description {
+    height:10em;
+    width:570px;
+}
