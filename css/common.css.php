@@ -365,7 +365,7 @@ h2 a img {
     width: 100%;
 }
 
-#table_results td.data
+.table_results td.data
 {
 	border-right: 1px solid #ddd;
 	border-left: 1px solid #ddd;
@@ -434,7 +434,7 @@ th, th a
 }
 
 .column_heading,
-#table_results th:first-child
+.table_results th:first-child
 {
 	border: 1px solid <?php echo $GLOBALS['cfg']['BorderColor']; ?>;
 	background-color: #f6f6f6;
@@ -689,7 +689,7 @@ table tr.even td:first-child input[type="checkbox"]
 
 #tabledatabases td:first-child:before,
 #tablestructure td:first-child:before,
-#table_results td:not(.grid_edit):first-child:before,
+.table_results td:not(.grid_edit):first-child:before,
 #tableuserrights td:first-child:before,
 #tableslistcontainer table.data td:first-child:before
 {
@@ -704,7 +704,7 @@ table tr.even td:first-child input[type="checkbox"]
 
 #tabledatabases tr.marked td:first-child:before,
 #tablestructure tr.marked td:first-child:before,
-#table_results tr.marked td:first-child:before,
+.table_results tr.marked td:first-child:before,
 #tableuserrights tr.marked td:first-child:before,
 #tableslistcontainer table.data tr.marked td:first-child:before
 {
