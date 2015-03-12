@@ -303,6 +303,13 @@ form.login label
 	display: none
 }
 
+.turnOffSelect {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
 #page_content {
     margin: 20px !important;
 }
@@ -3286,6 +3293,11 @@ form.append_fields_form .tblFooters
 .cEdit .edit_area_loading {
     background: #FFF url(<?php echo $_SESSION['PMA_Theme']->getImgPath('ajax_clock_small.gif');?>) no-repeat center;
     height: 10em;
+}
+
+.cEdit .edit_area_right {
+    position: absolute;
+    right: 0;
 }
 
 .cEdit .goto_link {
