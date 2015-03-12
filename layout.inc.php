@@ -16,7 +16,7 @@ $GLOBALS['cfg']['Scheme']                   = $scheme;
 switch($scheme)
 {
 	case "win":
-		
+
 		$GLOBALS['cfg']['NaviColor']                = '#EEEEEE';
 		$GLOBALS['cfg']['NaviBackground']           = '#377796';
 		$GLOBALS['cfg']['NaviBackgroundLight']      = '#428EB4';
@@ -43,9 +43,9 @@ switch($scheme)
 		$GLOBALS['cfg']['BgTwo']                    = '#FFFFFF';
 		$GLOBALS['cfg']['BlueHeader']               = '#3A7EAD';
 		break;
-	
+
 	case "teal":
-		
+
 		$GLOBALS['cfg']['NaviColor']                = '#FFFFFF';
 		$GLOBALS['cfg']['NaviBackground']           = '#004D60';
 		$GLOBALS['cfg']['NaviBackgroundLight']      = '#04627C';
@@ -72,9 +72,9 @@ switch($scheme)
 		$GLOBALS['cfg']['BgTwo']                    = '#FFFFFF';
 		$GLOBALS['cfg']['BlueHeader']               = '#3A7EAD';
 		break;
-	
+
 	case "redmond":
-	
+
 		$GLOBALS['cfg']['NaviColor']                = '#FFFFFF';
 		$GLOBALS['cfg']['NaviBackground']           = '#780505';
 		$GLOBALS['cfg']['NaviBackgroundLight']      = '#A10707';
@@ -101,9 +101,9 @@ switch($scheme)
 		$GLOBALS['cfg']['BgTwo']                    = '#FFFFFF';
 		$GLOBALS['cfg']['BlueHeader']               = '#3A7EAD';
 		break;
-		
+
 	case "blueeyes":
-	
+
 		$GLOBALS['cfg']['NaviColor']                = '#FFFFFF';
 		$GLOBALS['cfg']['NaviBackground']           = '#377796';
 		$GLOBALS['cfg']['NaviBackgroundLight']      = '#428EB4';
@@ -130,9 +130,9 @@ switch($scheme)
 		$GLOBALS['cfg']['BgTwo']                    = '#FFFFFF';
 		$GLOBALS['cfg']['BlueHeader']               = '#3A7EAD';
 		break;
-		
+
 	case "mono":
-	
+
 		$GLOBALS['cfg']['NaviColor']                = '#FFFFFF';
 		$GLOBALS['cfg']['NaviBackground']           = '#666666';
 		$GLOBALS['cfg']['NaviBackgroundLight']      = '#999999';
@@ -165,31 +165,6 @@ switch($scheme)
 
 $GLOBALS['cfg']['QueryWindowWidth']         = 600;
 $GLOBALS['cfg']['QueryWindowHeight']        = 400;
-
-/* SQL Parser Settings Syntax colouring data */
-$GLOBALS['cfg']['SQP']['fmtColor']      = array(
-    'comment'            => '#808000',
-    'comment_mysql'      => '',
-    'comment_ansi'       => '',
-    'comment_c'          => '',
-    'digit'              => '',
-    'digit_hex'          => 'teal',
-    'digit_integer'      => 'teal',
-    'digit_float'        => 'aqua',
-    'punct'              => 'fuchsia',
-    'alpha'              => '',
-    'alpha_columnType'   => '#FF9900',
-    'alpha_columnAttrib' => '#0000FF',
-    'alpha_reservedWord' => '#990099',
-    'alpha_functionName' => '#FF0000',
-    'alpha_identifier'   => 'black',
-    'alpha_charset'      => '#6495ed',
-    'alpha_variable'     => '#800000',
-    'quote'              => '#008000',
-    'quote_double'       => '',
-    'quote_single'       => '',
-    'quote_backtick'     => ''
-);
 
 /* Chart colors */
 
