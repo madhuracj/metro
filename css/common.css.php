@@ -922,6 +922,7 @@ img.lightbulb {
 {
 	text-decoration: none;
 	border-bottom: 1px dotted #999999;
+	color: inherit !important;
 }
 
 /* no extra space in table cells */
