@@ -171,27 +171,4 @@ switch($scheme)
 $GLOBALS['cfg']['QueryWindowWidth']         = 600;
 $GLOBALS['cfg']['QueryWindowHeight']        = 400;
 
-/* Chart colors */
-
- $GLOBALS['cfg']['chartColor'] = array(
-    'gradientIntensity'       => 50,
-    // The style of the chart title.
-    'titleColor'              => '#666666',
-    'titleBgColor'            => '#E5E5E5',
-    // Chart border (0 for no border)
-    'border'                  => '#DDDDDD',
-    // Chart background color.
-    'bgColor'                 => '#FBFBFB',
-    // when graph area gradient is used, this is the color of the graph
-    // area border
-    'graphAreaColor'          => '#D5D9DD',
-    // the background color of the graph area
-    'graphAreaGradientColor'  => $GLOBALS['cfg']['BgTwo'],
-    // the color of the grid lines in the graph area
-    'gridColor'               => '#E6E6E6',
-    // the color of the scale and the labels
-    'scaleColor'              => '#D5D9DD',
-
- );
-
 ?>
