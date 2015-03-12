@@ -1392,7 +1392,6 @@ div#tablestatistics table {
 	font-family: <?php echo $GLOBALS['cfg']['FontFamily']; ?>;
 	white-space: nowrap;
 	color: <?php echo $GLOBALS['cfg']['ButtonColor']; ?>;
-	float: <?php echo $left; ?>;
 }
 
 #serverinfo .item:before
