@@ -66,7 +66,6 @@ if (! defined('PMA_MINIMUM_COMMON') && ! defined('TESTSUITE')) {
     top: 0;
     <?php echo $left; ?>: 0;
     z-index: 0;
-	height: 100%;
 }
 
 #pma_navigation ul {
@@ -225,7 +224,7 @@ img.ic_b_home, img.ic_s_loggoff, img.ic_b_selboard, img.ic_b_docs, img.ic_b_sqlh
 }
 
 #pma_navigation_content > img.throbber {
-    display: block;
+    display: none;
     margin: .3em auto 0;
 }
 
@@ -239,6 +238,15 @@ img.ic_b_home, img.ic_s_loggoff, img.ic_b_selboard, img.ic_b_docs, img.ic_b_sqlh
 	overflow-x: hidden;
 	overflow-y: auto;
 	z-index: 1000;
+    height: 74%;
+    position: relative;
+}
+#pma_navigation_tree_content {
+    width: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+    position: absolute;
+    height: 100%;
 }
 #pma_navigation_tree li .dbItemControls {
     padding-left: 4px;
