@@ -2307,6 +2307,8 @@ table#serverconnection_trg_local  {
   *  Validation error message styles
   */
 input[type=text].invalid_value,
+input[type=password].invalid_value,
+input[type=number].invalid_value,
 .invalid_value {
     background: #FFCCCC;
 }
@@ -2883,6 +2885,8 @@ form#copyTable fieldset:not(.tblFooters):before
 }
 
 .config-form input[type="text"],
+.config-form input[type="password"],
+.config-form input[type="number"],
 .config-form select,
 .config-form textarea {
     border: 1px #A7A6AA solid;
@@ -2890,6 +2894,8 @@ form#copyTable fieldset:not(.tblFooters):before
 }
 
 .config-form input[type="text"]:focus,
+.config-form input[type="password"]:focus,
+.config-form input[type="number"]:focus,
 .config-form select:focus,
 .config-form textarea:focus {
     border: 1px #6676FF solid;
@@ -2999,6 +3005,8 @@ form.append_fields_form .tblFooters
 }
 
 #table_columns input[type="text"],
+#table_columns input[type="password"],
+#table_columns input[type="number"],
 #table_columns select {
     width: 10em;
     box-sizing: border-box;
@@ -3263,7 +3271,9 @@ form.append_fields_form .tblFooters
     position: absolute;
 }
 
-.cEdit input[type=text] {
+.cEdit input[type=text],
+.cEdit input[type=password],
+.cEdit input[type=number] {
     background: #FFF;
     height: 100%;
     margin: 0;
