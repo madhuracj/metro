@@ -1614,6 +1614,10 @@ div#tablestatistics table {
 #fieldset_user_global_rights fieldset {
     float: <?php echo $left; ?>;
 }
+
+#fieldset_user_group_rights fieldset {
+    float: <?php echo $left; ?>;
+}
 /* END user privileges */
 
 
