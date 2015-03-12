@@ -181,7 +181,7 @@ body#loginform div.container:before
 	float: left;
 	margin-right: 20px;
 	margin-top: -10px;
-	// background-color: <?php echo $GLOBALS['cfg']['ThColor']; ?>;
+	background-color: <?php echo $GLOBALS['cfg']['ThColor']; ?>;
 	overflow: hidden;
 	height: 220px;
 	width: 230px;
