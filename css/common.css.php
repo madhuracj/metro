@@ -1907,6 +1907,28 @@ div#profilingchart {
     float: <?php echo $left; ?>;
 }
 
+#profilesummarytable th.header, #profiletable th.header {
+    cursor: pointer;
+}
+
+#profilesummarytable th.header .sorticon, #profiletable th.header .sorticon {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+}
+
+#profilesummarytable th.headerSortUp .sorticon, #profiletable th.headerSortUp .sorticon{
+    background-image: url(<?php echo $_SESSION['PMA_Theme']->getImgPath('s_desc.png');?>);
+}
+
+#profilesummarytable th.headerSortDown .sorticon, #profiletable th.headerSortDown .sorticon{
+    background-image: url(<?php echo $_SESSION['PMA_Theme']->getImgPath('s_asc.png');?>);
+}
+
 /* END profiling */
 
 /* table charting */
