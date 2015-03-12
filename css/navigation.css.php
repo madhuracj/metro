@@ -272,7 +272,9 @@ img.ic_b_home, img.ic_s_loggoff, img.ic_b_selboard, img.ic_b_docs, img.ic_b_sqlh
 }
 #pma_navigation_tree li.activePointer {
     color: <?php echo $GLOBALS['cfg']['ThColor']; ?>;
-
+}
+#pma_navigation_tree li.selected {
+    color: <?php echo $GLOBALS['cfg']['ThColor']; ?>;
 }
 #pma_navigation_tree ul {
     clear: both;
