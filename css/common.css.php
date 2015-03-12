@@ -50,7 +50,7 @@ table
 
 @font-face {
 	font-family: 'IcoMoon';
-	src: local('â˜º');
+	src: local('☺');
 	src: url('./themes/metro/fonts/IcoMoon.eot');
 	src: url('./themes/metro/fonts/IcoMoon.eot?#iefix') format('embedded-opentype'),
 		url('./themes/metro/fonts/IcoMoon.svg#IcoMoon') format('svg'),
@@ -62,7 +62,7 @@ table
 
 @font-face {
 	font-family: 'Open Sans';
-	src: local('â˜º'), local('Open Sans'), local('OpenSans');
+	src: local('☺'), local('Open Sans'), local('OpenSans');
 	src: url('./themes/metro/fonts/opensans-regular-webfont.eot');
 	src: url('./themes/metro/fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
 		url('./themes/metro/fonts/opensans-regular-webfont.woff') format('woff'),
@@ -73,7 +73,7 @@ table
 
 @font-face {
 	font-family: 'Open Sans Light';
-	src: local('â˜º'), local('Open Sans Light'), local('OpenSans-Light');
+	src: local('☺'), local('Open Sans Light'), local('OpenSans-Light');
 	src: url('./themes/metro/fonts/opensans-light-webfont.eot');
 	src: url('./themes/metro/fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
 		url('./themes/metro/fonts/opensans-light-webfont.woff') format('woff'),
@@ -84,7 +84,7 @@ table
 
 @font-face {
 	font-family: 'Open Sans Bold';
-	src: local('â˜º'), local('Open Sans Bold'), local('OpenSans-Bold');
+	src: local('☺'), local('Open Sans Bold'), local('OpenSans-Bold');
 	src: url('./themes/metro/fonts/opensans-bold-webfont.eot');
 	src: url('./themes/metro/fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
 		url('./themes/metro/fonts/opensans-bold-webfont.woff') format('woff'),
@@ -95,7 +95,7 @@ table
 
 @font-face {
 	font-family: 'Open Sans Extrabold';
-	src: local('â˜º'), local('Open Sans Extrabold'), local('OpenSans-Extrabold');
+	src: local('☺'), local('Open Sans Extrabold'), local('OpenSans-Extrabold');
 	src: url('./themes/metro/fonts/opensans-extrabold-webfont.eot');
 	src: url('./themes/metro/fonts/opensans-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
 		url('./themes/metro/fonts/opensans-extrabold-webfont.woff') format('woff'),
@@ -694,7 +694,7 @@ table tr.even td:first-child input[type="checkbox"]
 #tableslistcontainer table.data td:first-child:before
 {
 	font-family: 'IcoMoon';
-	content: "î�±";
+	content: "";
 	color: <?php echo $GLOBALS['cfg']['ThColor']; ?>;
 	cursor: default;
 	position: absolute;
@@ -709,7 +709,7 @@ table tr.even td:first-child input[type="checkbox"]
 #tableslistcontainer table.data tr.marked td:first-child:before
 {
 	font-family: 'IcoMoon';
-	content: "î�²";
+	content: "";
 	color: <?php echo $GLOBALS['cfg']['ThColor']; ?>;
 	cursor: default;
 	position: absolute;
@@ -1209,7 +1209,7 @@ fieldset.caution li, #tbl_maintenance li
 fieldset.caution li:before
 {
 	font-family: 'IcoMoon';
-	content: "î€¹";
+	content: "";
 	color: <?php echo $GLOBALS['cfg']['ButtonColor']; ?>;
 	margin-right: 10px;
 }
@@ -1401,7 +1401,7 @@ div#tablestatistics table {
 	font-family: "IcoMoon";
 	font-size: 10px;
 	color: #eee;
-	content: "îƒ±";
+	content: "";
 }
 
 #serverinfo a:hover
