@@ -27,6 +27,7 @@ switch($scheme)
 		$GLOBALS['cfg']['MainColor']                = '#333333';
 		$GLOBALS['cfg']['MainBackground']           = '#FFFFFF';
 		$GLOBALS['cfg']['BrowsePointerColor']       = '#377796';
+		$GLOBALS['cfg']['BrowseMarkerColor']        = '#000000';
 		$GLOBALS['cfg']['BrowseWarningColor']       = '#D44A26';
 		$GLOBALS['cfg']['BrowseSuccessColor']       = '#01A31C';
 		$GLOBALS['cfg']['BrowseGrayColor']          = '#CCCCCC';
@@ -56,6 +57,7 @@ switch($scheme)
 		$GLOBALS['cfg']['MainColor']                = '#333333';
 		$GLOBALS['cfg']['MainBackground']           = '#FFFFFF';
 		$GLOBALS['cfg']['BrowsePointerColor']       = '#004d60';
+		$GLOBALS['cfg']['BrowseMarkerColor']        = '#000000';
 		$GLOBALS['cfg']['BrowseWarningColor']       = '#D44A26';
 		$GLOBALS['cfg']['BrowseSuccessColor']       = '#01A31C';
 		$GLOBALS['cfg']['BrowseGrayColor']          = '#CCCCCC';
@@ -85,6 +87,7 @@ switch($scheme)
 		$GLOBALS['cfg']['MainColor']                = '#333333';
 		$GLOBALS['cfg']['MainBackground']           = '#FFFFFF';
 		$GLOBALS['cfg']['BrowsePointerColor']       = '#780505';
+		$GLOBALS['cfg']['BrowseMarkerColor']        = '#000000';
 		$GLOBALS['cfg']['BrowseWarningColor']       = '#D44A26';
 		$GLOBALS['cfg']['BrowseSuccessColor']       = '#01A31C';
 		$GLOBALS['cfg']['BrowseGrayColor']          = '#CCCCCC';
@@ -114,6 +117,7 @@ switch($scheme)
 		$GLOBALS['cfg']['MainColor']                = '#333333';
 		$GLOBALS['cfg']['MainBackground']           = '#FFFFFF';
 		$GLOBALS['cfg']['BrowsePointerColor']       = '#377796';
+		$GLOBALS['cfg']['BrowseMarkerColor']        = '#000000';
 		$GLOBALS['cfg']['BrowseWarningColor']       = '#D44A26';
 		$GLOBALS['cfg']['BrowseSuccessColor']       = '#01A31C';
 		$GLOBALS['cfg']['BrowseGrayColor']          = '#CCCCCC';
@@ -143,6 +147,7 @@ switch($scheme)
 		$GLOBALS['cfg']['MainColor']                = '#333333';
 		$GLOBALS['cfg']['MainBackground']           = '#FFFFFF';
 		$GLOBALS['cfg']['BrowsePointerColor']       = '#666666';
+		$GLOBALS['cfg']['BrowseMarkerColor']        = '#000000';
 		$GLOBALS['cfg']['BrowseWarningColor']       = '#666666';
 		$GLOBALS['cfg']['BrowseSuccessColor']       = '#888888';
 		$GLOBALS['cfg']['BrowseGrayColor']          = '#CCCCCC';
