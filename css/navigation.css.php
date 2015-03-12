@@ -21,7 +21,7 @@ if (! defined('PMA_MINIMUM_COMMON') && ! defined('TESTSUITE')) {
     z-index: 800;
 }
 
-#pma_navigation select, 
+#pma_navigation select,
 #pma_navigation#recentTable
 {
 }
@@ -33,29 +33,29 @@ if (! defined('PMA_MINIMUM_COMMON') && ! defined('TESTSUITE')) {
 	color: <?php echo $GLOBALS['cfg']['NaviColor']; ?>;
 }
 
-#pma_navigation a img 
+#pma_navigation a img
 {
 	border: 0;
 }
 
 #pma_navigation a:link,
 #pma_navigation a:visited,
-#pma_navigation a:active 
+#pma_navigation a:active
 {
 	text-decoration: none;
 	color: <?php echo $GLOBALS['cfg']['NaviPointerColor']; ?>;
 }
 
 #pma_navigation select#select_server,
-#pma_navigation select#lightm_db 
+#pma_navigation select#lightm_db
 {
 	width: 100%;
 }
 
 /* buttons in some browsers (eg. Konqueror) are block elements,
    this breaks design */
-   
-#pma_navigation button 
+
+#pma_navigation button
 {
 	display: inline;
 }
@@ -115,18 +115,18 @@ if (! defined('PMA_MINIMUM_COMMON') && ! defined('TESTSUITE')) {
 	display: none;
 }
 
-#pma_navigation #recentTableList 
+#pma_navigation #recentTableList
 {
 	text-align: center;
 	padding: 10px;
 }
 
-#pma_navigation #recentTableList select 
+#pma_navigation #recentTableList select
 {
 	min-width: 100%;
 }
 
-#pma_navigation #databaseList 
+#pma_navigation #databaseList
 {
 	text-align: center;
 	margin: 10px;
@@ -140,7 +140,7 @@ if (! defined('PMA_MINIMUM_COMMON') && ! defined('TESTSUITE')) {
 	background-color: <?php echo $GLOBALS['cfg']['BorderColor']; ?>;
 }
 
-li a .ic_b_browse 
+li a .ic_b_browse
 {
 	display: none;
 }
@@ -240,7 +240,21 @@ img.ic_b_home, img.ic_s_loggoff, img.ic_b_selboard, img.ic_b_docs, img.ic_b_sqlh
 	overflow-y: auto;
 	z-index: 1000;
 }
-
+#pma_navigation_tree li .dbItemControls {
+    padding-left: 4px;
+}
+#pma_navigation_tree li .navItemControls {
+    display: none;
+    padding-left: 4px;
+}
+#pma_navigation_tree li.activePointer .navItemControls {
+    display: inline;
+    opacity: 0.5;
+}
+#pma_navigation_tree li.activePointer .navItemControls:hover {
+    display: inline;
+    opacity: 1.0;
+}
 #pma_navigation_tree a {
     color: <?php echo $GLOBALS['cfg']['NaviColor']; ?>;
 }
@@ -250,7 +264,7 @@ img.ic_b_home, img.ic_s_loggoff, img.ic_b_selboard, img.ic_b_docs, img.ic_b_sqlh
 }
 #pma_navigation_tree li.activePointer {
     color: <?php echo $GLOBALS['cfg']['ThColor']; ?>;
-    
+
 }
 #pma_navigation_tree ul {
     clear: both;
