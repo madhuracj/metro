@@ -9,48 +9,48 @@ if (! defined('PMA_MINIMUM_COMMON') && ! defined('TESTSUITE')) {
 
 /* CSS Reset */
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video 
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
 {
-	margin: 0; 
-	padding: 0; 
-	border: 0; 
+	margin: 0;
+	padding: 0;
+	border: 0;
 	font-family: 'Open Sans';
 }
 
 /* HTML5 display-role reset for older browsers */
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section 
-{ 
-	display: block; 
-}
-
-ol, ul 
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
 {
-	list-style: none; 
+	display: block;
 }
 
-blockquote, q 
+ol, ul
 {
-	quotes: none; 
+	list-style: none;
 }
 
-blockquote:before, blockquote:after, q:before, q:after 
-{ 
-	content: ''; 
-	content: none; 
+blockquote, q
+{
+	quotes: none;
 }
 
-table 
-{ 
+blockquote:before, blockquote:after, q:before, q:after
+{
+	content: '';
+	content: none;
+}
+
+table
+{
 	border-collapse: collapse;
-	border-spacing: 0; 
+	border-spacing: 0;
 }
 
 /* fonts */
 
 @font-face {
 	font-family: 'IcoMoon';
-	src: local('☺');
+	src: local('â˜º');
 	src: url('./themes/metro/fonts/IcoMoon.eot');
 	src: url('./themes/metro/fonts/IcoMoon.eot?#iefix') format('embedded-opentype'),
 		url('./themes/metro/fonts/IcoMoon.svg#IcoMoon') format('svg'),
@@ -62,7 +62,7 @@ table
 
 @font-face {
 	font-family: 'Open Sans';
-	src: local('☺'), local('Open Sans'), local('OpenSans');
+	src: local('â˜º'), local('Open Sans'), local('OpenSans');
 	src: url('./themes/metro/fonts/opensans-regular-webfont.eot');
 	src: url('./themes/metro/fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
 		url('./themes/metro/fonts/opensans-regular-webfont.woff') format('woff'),
@@ -73,7 +73,7 @@ table
 
 @font-face {
 	font-family: 'Open Sans Light';
-	src: local('☺'), local('Open Sans Light'), local('OpenSans-Light');
+	src: local('â˜º'), local('Open Sans Light'), local('OpenSans-Light');
 	src: url('./themes/metro/fonts/opensans-light-webfont.eot');
 	src: url('./themes/metro/fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
 		url('./themes/metro/fonts/opensans-light-webfont.woff') format('woff'),
@@ -84,7 +84,7 @@ table
 
 @font-face {
 	font-family: 'Open Sans Bold';
-	src: local('☺'), local('Open Sans Bold'), local('OpenSans-Bold');
+	src: local('â˜º'), local('Open Sans Bold'), local('OpenSans-Bold');
 	src: url('./themes/metro/fonts/opensans-bold-webfont.eot');
 	src: url('./themes/metro/fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
 		url('./themes/metro/fonts/opensans-bold-webfont.woff') format('woff'),
@@ -95,7 +95,7 @@ table
 
 @font-face {
 	font-family: 'Open Sans Extrabold';
-	src: local('☺'), local('Open Sans Extrabold'), local('OpenSans-Extrabold');
+	src: local('â˜º'), local('Open Sans Extrabold'), local('OpenSans-Extrabold');
 	src: url('./themes/metro/fonts/opensans-extrabold-webfont.eot');
 	src: url('./themes/metro/fonts/opensans-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
 		url('./themes/metro/fonts/opensans-extrabold-webfont.woff') format('woff'),
@@ -164,7 +164,7 @@ body#loginform #page_content{
 	height: 200px;
 }
 
-body#loginform div.container 
+body#loginform div.container
 {
 	text-align: <?php echo $left; ?>;
 	width: 48em;
@@ -298,7 +298,7 @@ body#loginform .error
 	margin-top: -280px;
 }
 
-form.login label 
+form.login label
 {
 	display: none
 }
@@ -317,7 +317,7 @@ code {
 <?php } ?>
 
 
-h1 
+h1
 {
 	font-family: <?php echo $GLOBALS['cfg']['FontFamilyLight']; ?>;
 	font-weight: normal;
@@ -328,7 +328,7 @@ h1
 	line-height: 1;
 }
 
-h2 
+h2
 {
 	font-size: 3.6em;
 	font-weight: normal;
@@ -358,7 +358,7 @@ h2 a img {
     width: 100%;
 }
 
-#table_results td.data 
+#table_results td.data
 {
 	border-right: 1px solid #ddd;
 	border-left: 1px solid #ddd;
@@ -386,7 +386,7 @@ a:hover {
     color: #235a81;
 }
 
-#initials_table 
+#initials_table
 {
 	background: <?php echo $GLOBALS['cfg']['ThBackground']; ?>;
 	border: 1px solid <?php echo $GLOBALS['cfg']['BorderColor']; ?>;
@@ -398,7 +398,7 @@ a:hover {
 	padding:8px !important;
 }
 
-#initials_table a 
+#initials_table a
 {
 	border: 1px solid <?php echo $GLOBALS['cfg']['BorderColor']; ?>;
 	background: <?php echo $GLOBALS['cfg']['MainBackground']; ?>;
@@ -437,7 +437,7 @@ a img {
     border: 0;
 }
 
-hr 
+hr
 {
 	color: <?php echo $GLOBALS['cfg']['BorderColor']; ?>;
 	background-color: <?php echo $GLOBALS['cfg']['BorderColor']; ?>;
@@ -484,7 +484,7 @@ input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover
 	cursor:pointer;
 	background-color: <?php echo $GLOBALS['cfg']['ButtonHover']; ?>;
 	border: 1px solid <?php echo $GLOBALS['cfg']['ButtonHover']; ?>;
-	
+
 }
 
 input[type=submit]:active, input[type=reset]:active, input[type=button]:active
@@ -510,20 +510,20 @@ button
 	background-color: <?php echo $GLOBALS['cfg']['ButtonBackground']; ?>;
 }
 
-textarea 
+textarea
 {
 	height: <?php echo ceil($GLOBALS['cfg']['TextareaRows'] * 1.2); ?>em;
 	overflow: visible;
 	border: 1px solid <?php echo $GLOBALS['cfg']['BrowseGrayColor']; ?>;
 	color: <?php echo $GLOBALS['cfg']['ThColor']; ?>;
-	background-color: <?php echo $GLOBALS['cfg']['MainBackground']; ?>;	
+	background-color: <?php echo $GLOBALS['cfg']['MainBackground']; ?>;
 }
 
 textarea.char {
     height: <?php echo ceil($GLOBALS['cfg']['CharTextareaRows'] * 1.2); ?>em;
 }
 
-fieldset 
+fieldset
 {
 	margin-top: 20px;
 	padding: 5px;
@@ -532,7 +532,7 @@ fieldset
 	background-color: <?php echo $GLOBALS['cfg']['ThBackground']; ?>;
 }
 
-fieldset fieldset 
+fieldset fieldset
 {
 	margin: 20px;
 	margin-bottom: 0px;
@@ -687,7 +687,7 @@ table tr.even td:first-child input[type="checkbox"]
 #tableslistcontainer table.data td:first-child:before
 {
 	font-family: 'IcoMoon';
-	content: "";
+	content: "î�±";
 	color: <?php echo $GLOBALS['cfg']['ThColor']; ?>;
 	cursor: default;
 	position: absolute;
@@ -702,7 +702,7 @@ table tr.even td:first-child input[type="checkbox"]
 #tableslistcontainer table.data tr.marked td:first-child:before
 {
 	font-family: 'IcoMoon';
-	content: "";
+	content: "î�²";
 	color: <?php echo $GLOBALS['cfg']['ThColor']; ?>;
 	cursor: default;
 	position: absolute;
@@ -714,7 +714,7 @@ tr.noclick td:first-child:before
 	content: "";
 }
 
-fieldset.tblFooters 
+fieldset.tblFooters
 {
 	margin-top: -1px;
 	border-top: 0px;
@@ -730,7 +730,7 @@ div.null_div {
     min-width: 50px;
 }
 
-fieldset .formelement 
+fieldset .formelement
 {
 	float: <?php echo $left; ?>;
 	margin-<?php echo $right; ?>: 0.5em;
@@ -745,7 +745,7 @@ fieldset div[class=formelement] {
     white-space: normal;
 }
 
-button.mult_submit 
+button.mult_submit
 {
 	border: none;
 	background-color: transparent;
@@ -755,7 +755,7 @@ button.mult_submit
 
 /* odd items 1,3,5,7,... */
 table tr.odd th,
-.odd 
+.odd
 {
 	background: <?php echo $GLOBALS['cfg']['BgTwo']; ?>;
 	<?php echo $_SESSION['PMA_Theme']->getCssIEClearFilter(); ?>
@@ -765,7 +765,7 @@ table tr.odd th,
 /* even items 2,4,6,8,... */
 /* (tested on CRTs and ACLs) */
 table tr.even th,
-.even 
+.even
 {
 	background: <?php echo $GLOBALS['cfg']['BgOne']; ?>;
 	<?php echo $_SESSION['PMA_Theme']->getCssIEClearFilter(); ?>
@@ -776,7 +776,7 @@ table tr.even th,
 table tr.odd th,
 table tr.odd,
 table tr.even th,
-table tr.even 
+table tr.even
 {
 	text-align: <?php echo $left; ?>;
 	border-bottom: 1px solid #eee;
@@ -792,7 +792,7 @@ table tr.odd, table tr.even
 td.marked,
 table tr.marked td,
 table tr.marked th,
-table tr.marked 
+table tr.marked
 {
 	color: <?php echo $GLOBALS['cfg']['MainColor']; ?>;
 }
@@ -808,7 +808,7 @@ table tr.marked
 .odd:hover,
 .even:hover,
 .hover,
-.structure_actions_dropdown 
+.structure_actions_dropdown
 {
 	background-color: <?php echo $GLOBALS['cfg']['BrowseMarkerBackground']; ?>;
 	color: <?php echo $GLOBALS['cfg']['MainColor']; ?>;
@@ -822,7 +822,7 @@ table tr.marked
 /* hovered table rows */
 table tr.odd:hover th,
 table tr.even:hover th,
-table tr.hover th 
+table tr.hover th
 {
 	background-color: <?php echo $GLOBALS['cfg']['BrowseMarkerBackground']; ?>;
 	color: <?php echo $GLOBALS['cfg']['ThPointerColor']; ?>;
@@ -831,7 +831,7 @@ table tr.hover th
 
 /* marks table rows/cells if the db field is in a where condition */
 
-.condition 
+.condition
 {
 	border-color: <?php echo $GLOBALS['cfg']['BrowseWarningColor']; ?> !important;
 }
@@ -843,7 +843,7 @@ th.condition, th.condition a
 	color: <?php echo $GLOBALS['cfg']['MainBackground']; ?> !important;
 }
 
-td.condition 
+td.condition
 {
 	border: 1px solid;
 }
@@ -923,13 +923,13 @@ img.lightbulb {
 	font-family: <?php echo $GLOBALS['cfg']['FontFamilyFixed']; ?>;
 }
 
-.syntax a 
+.syntax a
 {
 	text-decoration: none;
 	border-bottom: 1px dotted #999999;
 }
 
-.syntax_comment 
+.syntax_comment
 {
 	padding-left: 4pt;
 	padding-right: 4pt;
@@ -1066,7 +1066,7 @@ div.success {
 	<?php } ?>
 }
 
-.notice, .footnotes 
+.notice, .footnotes
 {
 	color: <?php echo $GLOBALS['cfg']['ButtonColor']; ?>;
 	background-color: <?php echo $GLOBALS['cfg']['BlueHeader']; ?>;
@@ -1074,7 +1074,7 @@ div.success {
 
 h1.notice,
 div.notice,
-div.footnotes 
+div.footnotes
 {
 	border-color: <?php echo $GLOBALS['cfg']['BlueHeader']; ?>;
 	<?php if ($GLOBALS['cfg']['ErrorIconic']) { ?>
@@ -1093,7 +1093,7 @@ div.footnotes
 	color: <?php echo $GLOBALS['cfg']['ButtonColor']; ?>;
 }
 
-.error 
+.error
 {
 	border: 1px solid <?php echo $GLOBALS['cfg']['BrowseWarningColor']; ?> !important;
 	color: <?php echo $GLOBALS['cfg']['ButtonColor']; ?>;
@@ -1101,7 +1101,7 @@ div.footnotes
 }
 
 h1.error,
-div.error 
+div.error
 {
 	border-color: <?php echo $GLOBALS['cfg']['MainColor']; ?>;
 	<?php if ($GLOBALS['cfg']['ErrorIconic']) { ?>
@@ -1115,7 +1115,7 @@ div.error
 	<?php } ?>
 }
 
-.confirmation 
+.confirmation
 {
 	color: <?php echo $GLOBALS['cfg']['ButtonColor']; ?>;
 	background-color: <?php echo $GLOBALS['cfg']['BrowseWarningColor']; ?>;
@@ -1270,7 +1270,7 @@ fieldset.caution
 	border: 1px solid <?php echo $GLOBALS['cfg']['BrowseWarningColor']; ?>;
 }
 
-fieldset.caution a 
+fieldset.caution a
 {
 	font-family: 'Open Sans Bold';
 	text-transform: uppercase;
@@ -1291,7 +1291,7 @@ fieldset.caution li, #tbl_maintenance li
 fieldset.caution li:before
 {
 	font-family: 'IcoMoon';
-	content: "";
+	content: "î€¹";
 	color: <?php echo $GLOBALS['cfg']['ButtonColor']; ?>;
 	margin-right: 10px;
 }
@@ -1301,7 +1301,7 @@ fieldset.caution li a:nth-child(2) img
 	background: url('./themes/metro/img/s_info.png') !important;
 }
 
-#tbl_maintenance li a 
+#tbl_maintenance li a
 {
 	font-family: 'Open Sans Bold';
 	text-transform: uppercase;
@@ -1329,7 +1329,7 @@ ul#topmenu ul.only {
 }
 
 ul#topmenu > li {
-    
+
 }
 
 /* default tab styles */
@@ -1366,18 +1366,18 @@ ul#topmenu ul .tabactive {
 
 ul#topmenu a.tab:hover,
 ul#topmenu .tabactive {
-    
+
 }
 
 ul#topmenu2 a,
 ul#topmenu2 a:hover {
-    
+
     text-decoration: none;
 }
 
 /* to be able to cancel the bottom border, use <li class="active"> */
 ul#topmenu > li.active {
-    
+
     border-right: 0;
 }
 /* end topmenu */
@@ -1455,7 +1455,7 @@ div#tablestatistics table {
     width: 100%;
 }
 
-#serverinfo 
+#serverinfo
 {
 	padding: 12px 30px;
 	overflow: hidden;
@@ -1468,7 +1468,7 @@ div#tablestatistics table {
 	height: 15px;
 }
 
-#serverinfo .item 
+#serverinfo .item
 {
 	font-family: <?php echo $GLOBALS['cfg']['FontFamily']; ?>;
 	white-space: nowrap;
@@ -1483,7 +1483,7 @@ div#tablestatistics table {
 	font-family: "IcoMoon";
 	font-size: 10px;
 	color: #eee;
-	content: "";
+	content: "îƒ±";
 }
 
 #serverinfo a:hover
@@ -2035,7 +2035,7 @@ li#li_mysql_client_version
 	text-overflow: ellipsis;
 }
 
-li#li_create_database 
+li#li_create_database
 {
 	background-color: #f6f6f6;
 	padding: 10px;
@@ -2050,7 +2050,7 @@ li#li_select_lang select
 	height: 26px;
 }
 
-li#li_select_lang 
+li#li_select_lang
 {
 	display: block;
 	padding: 10px;
@@ -2068,7 +2068,7 @@ li#li_select_mysql_collation select
 	margin: 0px !important;
 }
 
-li#li_select_mysql_collation 
+li#li_select_mysql_collation
 {
 	display: block;
 	padding: 10px;
@@ -2105,7 +2105,7 @@ li#li_select_theme:hover
 	background: #f6f6f6;
 }
 
-li#li_change_password 
+li#li_change_password
 {
 	/* list-style-image: url(<?php echo $_SESSION['PMA_Theme']->getImgPath(); ?>s_passwd.png); */
 	display: block;
@@ -2119,7 +2119,7 @@ li#li_change_password:hover
 	background: #f6f6f6;
 }
 
-li#li_user_preferences 
+li#li_user_preferences
 {
 	/* list-style-image: url(<?php echo $_SESSION['PMA_Theme']->getImgPath(); ?>b_tblops.png); */
 	display: block;
@@ -2133,7 +2133,7 @@ li#li_user_preferences:hover
 	background: #f6f6f6;
 }
 
-li#li_switch_dbstats 
+li#li_switch_dbstats
 {
 	background-color: #f6f6f6;
 	padding: 10px;
@@ -2218,7 +2218,7 @@ label.desc sup {
     position: absolute;
 }
 
-code.sql, div.sqlvalidate 
+code.sql, div.sqlvalidate
 {
 	display: block;
 	padding: 1em;
@@ -2229,21 +2229,21 @@ code.sql, div.sqlvalidate
 	border: 1px solid <?php echo $GLOBALS['cfg']['BorderColor']; ?>;
 }
 
-#main_pane_left 
+#main_pane_left
 {
 	width: 60%;
 	float: <?php echo $left; ?>;
 	padding-top: 1em;
 }
 
-#main_pane_right 
+#main_pane_right
 {
 	margin-<?php echo $left; ?>: 60%;
 	padding-top: 1em;
 	padding-<?php echo $left; ?>: 3em;
 }
 
-.group 
+.group
 {
 	margin-bottom: 1em;
 	padding-bottom: 1em;
@@ -2254,7 +2254,7 @@ code.sql, div.sqlvalidate
 	margin-left: 0px;
 }
 
-.group h2 
+.group h2
 {
 	color: <?php echo $GLOBALS['cfg']['NaviBackground']; ?>;
 	font-size: 2.8em;
@@ -2432,7 +2432,7 @@ input[type=text].invalid_value,
 	margin: 0px;
 }
 #buttonGo:hover {
-    
+
 }
 
 .format_specific_options h3 {
@@ -3231,14 +3231,14 @@ form.append_fields_form .tblFooters
 	display: none;
 }
 
-.navigation 
+.navigation
 {
 	width: 100%;
 	background-color: <?php echo $GLOBALS['cfg']['NaviBackground']; ?>;
 	color: <?php echo $GLOBALS['cfg']['NaviColor']; ?>;
 }
 
-.navigation td 
+.navigation td
 {
 	margin: 0;
 	padding: 0;
@@ -3246,7 +3246,7 @@ form.append_fields_form .tblFooters
 	white-space: nowrap;
 }
 
-.navigation_separator 
+.navigation_separator
 {
 	color: #eee;
 	display: inline-block;
@@ -3255,7 +3255,7 @@ form.append_fields_form .tblFooters
 	height: 1.4em;
 }
 
-.navigation input[type=submit] 
+.navigation input[type=submit]
 {
 	background: <?php echo $GLOBALS['cfg']['ButtonBackground']; ?>;
 	border: none;
@@ -3264,14 +3264,14 @@ form.append_fields_form .tblFooters
 	padding: 0.4em;
 }
 
-.navigation input[type=submit]:hover, .navigation input.edit_mode_active 
+.navigation input[type=submit]:hover, .navigation input.edit_mode_active
 {
 	color: <?php echo $GLOBALS['cfg']['ButtonColor']; ?>;
 	cursor: pointer;
 	background-color: <?php echo $GLOBALS['cfg']['ThColor']; ?>;
 }
 
-.navigation select 
+.navigation select
 {
 	margin: 0 0.8em;
 	border: none;
