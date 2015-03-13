@@ -669,7 +669,7 @@ tr.vbottom th, tr.vbottom td, th.vbottom, td.vbottom {
     color: #fff;
 }
 
-#result_query
+.result_query
 {
 	background: <?php echo $GLOBALS['cfg']['ThBackground']; ?>;
 	margin-bottom: 20px;
@@ -2205,12 +2205,11 @@ label.desc sup {
     position: absolute;
 }
 
-code.sql, div.sqlvalidate
+code.sql, div.sqlvalidate, #inline_editor_outer
 {
 	display: block;
 	padding: 1em;
 	margin: 1em;
-	max-height: 10em;
 	overflow: auto;
 	background-color: <?php echo $GLOBALS['cfg']['MainBackground']; ?>;
 	border: 1px solid <?php echo $GLOBALS['cfg']['BorderColor']; ?>;

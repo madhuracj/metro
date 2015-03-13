@@ -98,9 +98,9 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #f22;}
    the editor. You probably shouldn't touch them. */
 
 .CodeMirror {
+  line-height: 1;
   position: relative;
   overflow: hidden;
-  margin-bottom: 10px;
   background: white;
   color: black;
   font-family: <?php echo $GLOBALS['cfg']['FontFamilyFixed']; ?> !important;
@@ -108,29 +108,24 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #f22;}
   resize: vertical;
   max-height: 600px;
   min-height: 75px;
-  border: 1px solid <?php echo $GLOBALS['cfg']['BorderColor']; ?>;
 }
 
 .CodeMirror * {
 	font-family: <?php echo $GLOBALS['cfg']['FontFamilyFixed']; ?>;
 }
 
-.CodeMirror br {
-	display: block !important;
-}
-
 #inline_editor_outer .CodeMirror {
     height: <?php echo ceil($GLOBALS['cfg']['TextareaRows'] * 0.4); ?>em;
+    margin-bottom: 10px;
 }
 
 .CodeMirror-scroll {
   /* 30px is the magic margin used to hide the element's real scrollbars */
   /* See overflow: hidden in .CodeMirror */
-  margin-bottom: -30px; margin-right: -30px;
-  padding-bottom: 30px; padding-right: 30px;
-  height: 100%;
+  height: 85% !important;
   outline: none; /* Prevent dragging from highlighting the element */
-  position: relative;
+  resize: none;
+  overflow-y: auto;
 }
 .CodeMirror-sizer {
   position: relative;
