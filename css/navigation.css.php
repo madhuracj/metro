@@ -300,7 +300,9 @@ img.ic_b_home, img.ic_s_loggoff, img.ic_b_selboard, img.ic_b_docs, img.ic_b_sqlh
 .expander .ic_b_minus {
     background-position: 0 -753px !important;
 }
-
+#pma_navigation_tree i {
+    display: block;
+}
 #pma_navigation_tree div.block {
     position: relative;
     width: 1.5em;
