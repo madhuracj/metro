@@ -1978,6 +1978,16 @@ div#queryboxcontainer div#bookmarkoptions {
 	line-height: 1.5;
 }
 
+#full_name_layer {
+    position: absolute;
+    padding: 2px;
+    margin-top: -3px;
+    z-index: 801;
+
+    border: solid 1px #888;
+    background: #fff;
+}
+
 /* END main page */
 
 
@@ -2204,13 +2214,15 @@ code.sql, div.sqlvalidate
 #main_pane_left
 {
 	width: 60%;
+	min-width: 260px;
 	float: <?php echo $left; ?>;
 	padding-top: 1em;
 }
 
 #main_pane_right
 {
-	margin-<?php echo $left; ?>: 60%;
+	overflow: hidden;
+    min-width: 160px;
 	padding-top: 1em;
 	padding-<?php echo $left; ?>: 3em;
 }
