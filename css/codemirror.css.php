@@ -108,6 +108,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #f22;}
   resize: vertical;
   max-height: 600px;
   min-height: 75px;
+  border: 1px solid #ccc;
 }
 
 .CodeMirror * {
@@ -117,7 +118,10 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #f22;}
 #inline_editor_outer .CodeMirror {
     height: <?php echo ceil($GLOBALS['cfg']['TextareaRows'] * 0.4); ?>em;
     margin-bottom: 10px;
-    border: 1px solid #CCCCCC;
+}
+
+.console_query_input .CodeMirror {
+    border: none;
 }
 
 .CodeMirror-scroll {
