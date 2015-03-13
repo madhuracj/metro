@@ -3434,7 +3434,6 @@ div#page_content div#tableslistcontainer, div#page_content div.notice, div#page_
 }
 #pma_console .toolbar.collapsed:not(:hover) {
     display: inline-block;
-    border-top-<?php echo $right; ?>-radius: 3px;
     border-<?php echo $right; ?>: solid 1px #aaa;
 }
 #pma_console .toolbar.collapsed {
@@ -3557,7 +3556,6 @@ div#page_content div#tableslistcontainer, div#page_content div.notice, div#page_
     bottom: 100%;
     background: #ccc;
     border: solid 1px #aaa;
-    border-top-<?php echo $left; ?>-radius: 3px;
 }
 html.ie8 #pma_console .message .action_content {
     position: relative!important;
@@ -3585,14 +3583,9 @@ html.ie8 #pma_console .message .action_content {
     top: 0;
     background: #369;
     color: #fff;
-    border-radius: 3px;
 }
 #pma_console .message .bookmark_label.shared {
     background: #396;
-}
-#pma_console .message.expanded .bookmark_label {
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
 }
 #pma_console .query_input {
     position: relative;
@@ -3625,7 +3618,6 @@ html.ie8 #pma_console .message .action_content {
 }
 #pma_console .card.show {
     <?php echo $left; ?>: 6%;
-    box-shadow: -2px 1px 4px -1px #999;
 }
 
 html.ie7 #pma_console .query_input {
@@ -3702,12 +3694,6 @@ html.ie7 #pma_console .query_input {
     width: 400px;
     border: 1px solid #999;
     background: #f3f3f3;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    border-radius: 4px;
-    -moz-box-shadow: <?php echo $GLOBALS['text_dir'] === 'rtl' ? '-' : ''; ?>2px 2px 5px #ccc;
-    -webkit-box-shadow: <?php echo $GLOBALS['text_dir'] === 'rtl' ? '-' : ''; ?>2px 2px 5px #ccc;
-    box-shadow: <?php echo $GLOBALS['text_dir'] === 'rtl' ? '-' : ''; ?>2px 2px 5px #ccc;
 }
 
 .pma_sql_import_status h2,
@@ -3719,10 +3705,6 @@ html.ie7 #pma_console .query_input {
     color: #fff;
     font-size: 1.6em;
     font-weight: normal;
-    text-shadow: 0 1px 0 #777;
-    -moz-box-shadow: <?php echo $GLOBALS['text_dir'] === 'rtl' ? '-' : ''; ?>1px 1px 15px #999 inset;
-    -webkit-box-shadow: <?php echo $GLOBALS['text_dir'] === 'rtl' ? '-' : ''; ?>1px 1px 15px #999 inset;
-    box-shadow: <?php echo $GLOBALS['text_dir'] === 'rtl' ? '-' : ''; ?>1px 1px 15px #999 inset;
 }
 
 .pma_sql_import_status div {
@@ -3780,8 +3762,6 @@ html.ie7 #pma_console .query_input {
     background: white;
     min-height: 300px;
     z-index: 800;
-    -webkit-box-shadow: 0px 0px 15px #999;
-    border-radius: 10px;
     cursor: move;
 }
 
