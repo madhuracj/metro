@@ -2271,6 +2271,7 @@ textarea#partitiondefinition {
 
 #list_server {
     list-style-image: none;
+    padding: 0;
 }
 
 /**
