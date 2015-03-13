@@ -2466,7 +2466,6 @@ select#table_select {
     margin-bottom: 0;
 }
 
-#quick_or_custom,
 #output_quick_export {
     display: none;
 }
