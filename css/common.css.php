@@ -3427,13 +3427,13 @@ div#page_content div#tableslistcontainer, div#page_content div.notice, div#page_
 }
 #pma_console .toolbar {
     position: relative;
-    background: #ccc;
-    border-top: solid 1px #aaa;
+    background: <?php echo $GLOBALS['cfg']['ThBackground']; ?>;
+    border-top: solid 1px #ccc;
     cursor: n-resize;
 }
 #pma_console .toolbar.collapsed:not(:hover) {
     display: inline-block;
-    border-<?php echo $right; ?>: solid 1px #aaa;
+    border-<?php echo $right; ?>: solid 1px #ccc;
 }
 #pma_console .toolbar.collapsed {
     cursor: default;
@@ -3453,11 +3453,6 @@ div#page_content div#tableslistcontainer, div#page_content div.notice, div#page_
 #pma_console .switch_button {
     cursor: pointer;
 }
-#pma_console .message span.action:hover,
-#pma_console .toolbar .button:hover,
-#pma_console .switch_button:hover {
-    background: #ddd;
-}
 #pma_console .toolbar .button {
     margin-<?php echo $right; ?>: .4em;
 }
@@ -3468,7 +3463,7 @@ div#page_content div#tableslistcontainer, div#page_content div.notice, div#page_
     overflow-x: hidden;
     overflow-y: auto;
     margin-bottom: -65px;
-    border-top: solid 1px #aaa;
+    border-top: solid 1px #ccc;
     background: #fff;
     padding-top: .4em;
 }
@@ -3596,7 +3591,7 @@ html.ie8 #pma_console .message .action_content {
     top: 0;
     /* For support IE8, this layer doesn't use filter:opacity or opacity,
     js code will fade this layer opacity to 0.18(using animation) */
-    background: #666;
+    background: #ccc;
     display: none;
     cursor: pointer;
     z-index: 200;
