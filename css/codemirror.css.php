@@ -117,6 +117,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #f22;}
 #inline_editor_outer .CodeMirror {
     height: <?php echo ceil($GLOBALS['cfg']['TextareaRows'] * 0.4); ?>em;
     margin-bottom: 10px;
+    border: 1px solid #CCCCCC;
 }
 
 .CodeMirror-scroll {
