@@ -192,7 +192,6 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #f22;}
 }
 .CodeMirror pre {
   /* Reset some styles that the rest of the page might have set */
-  -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
   border-width: 0;
   background: transparent;
   font-family: inherit;
@@ -320,11 +319,6 @@ span.cm-number {
 
   margin: 0;
   padding: 2px;
-
-  -webkit-box-shadow: 2px 3px 5px rgba(0,0,0,.2);
-  -moz-box-shadow: 2px 3px 5px rgba(0,0,0,.2);
-  box-shadow: 2px 3px 5px rgba(0,0,0,.2);
-  border-radius: 3px;
   border: 1px solid silver;
 
   background: white;
@@ -338,7 +332,6 @@ span.cm-number {
 .CodeMirror-hint {
   margin: 0;
   padding: 0 4px;
-  border-radius: 2px;
   max-width: 19em;
   overflow: hidden;
   white-space: pre;

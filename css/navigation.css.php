@@ -441,7 +441,6 @@ li.fast_filter.db_fast_filter {
 .pma_quick_warp .drop_button {
     padding: 0 .3em;
     border: 1px solid #ddd;
-    border-radius: .3em;
     background: #f2f2f2;
     cursor: pointer;
 }
@@ -457,10 +456,6 @@ li.fast_filter.db_fast_filter {
     list-style: none;
     background: #fff;
     border: 1px solid #ddd;
-    border-radius: .3em;
-    border-top-<?php echo $right; ?>-radius: 0;
-    border-bottom-<?php echo $right; ?>-radius: 0;
-    box-shadow: 0 0 5px #ccc;
     top: 100%;
     <?php echo $left; ?>: 3px;
     <?php echo $right; ?>: 0;
@@ -473,7 +468,6 @@ li.fast_filter.db_fast_filter {
 .pma_quick_warp .drop_list li {
     white-space: nowrap;
     padding: 0;
-    border-radius: 0;
 }
 .pma_quick_warp .drop_list li img {
     vertical-align: sub;
