@@ -3764,3 +3764,29 @@ html.ie7 #pma_console .query_input {
     margin-right: 5px;
     padding: 0px 10px;
 }
+
+/* Override some jQuery-ui styling to have square corners */
+body .ui-corner-all,
+body .ui-corner-top,
+body .ui-corner-left,
+body .ui-corner-tl {
+	border-top-left-radius: 0;
+}
+body .ui-corner-all,
+body .ui-corner-top,
+body .ui-corner-right,
+body .ui-corner-tr {
+	border-top-right-radius: 0;
+}
+body .ui-corner-all,
+body .ui-corner-bottom,
+body .ui-corner-left,
+body .ui-corner-bl {
+	border-bottom-left-radius: 0;
+}
+body .ui-corner-all,
+body .ui-corner-bottom,
+body .ui-corner-right,
+body .ui-corner-br {
+	border-bottom-right-radius: 0;
+}
