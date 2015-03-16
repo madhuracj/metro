@@ -138,11 +138,6 @@ if (! defined('PMA_MINIMUM_COMMON') && ! defined('TESTSUITE')) {
 	background-color: <?php echo $GLOBALS['cfg']['BorderColor']; ?>;
 }
 
-li a .ic_b_browse
-{
-	display: none;
-}
-
 div#left_tableList li a:first-child:before
 {
 	color: <?php echo $GLOBALS['cfg']['NaviPointerColor']; ?>;
