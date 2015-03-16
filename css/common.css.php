@@ -1833,44 +1833,6 @@ p.notice a {
     text-decoration: underline;
 }
 
-/* querywindow */
-body#bodyquerywindow {
-    margin: 0;
-    padding: 0;
-    background-image: none;
-    background-color: #F5F5F5;
-}
-
-div#querywindowcontainer {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
-
-div#querywindowcontainer fieldset {
-    margin-top: 0;
-	background-color: #fff;
-}
-
-div#querywindowcontainer .tblFooters {
-    border-top: none;
-	margin-top: -1px;
-}
-
-div#querywindowcontainer #topmenu li.active
-{
-	border-bottom: 1px solid #fff;
-	margin-bottom: -1px;
-}
-
-div#querywindowcontainer #topmenu li.active a
-{
-	border: 1px solid #ddd;
-	border-bottom: none;
-}
-
-/* END querywindow */
-
 /* profiling */
 
 div#profilingchart {
