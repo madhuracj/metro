@@ -3790,3 +3790,11 @@ body .ui-corner-right,
 body .ui-corner-br {
 	border-bottom-right-radius: 0;
 }
+/* Override  jQuery-ui styling for buttons */
+body .ui-dialog .ui-dialog-buttonpane button {
+	font-family: <?php echo $GLOBALS['cfg']['FontFamily']; ?>;
+	color: <?php echo $GLOBALS['cfg']['ButtonColor']; ?>;
+	background: <?php echo $GLOBALS['cfg']['NaviBackground']; ?>;
+	background-image: none;
+	border: none;
+}
