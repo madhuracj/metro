@@ -30,7 +30,6 @@ if (! defined('PMA_MINIMUM_COMMON') && ! defined('TESTSUITE')) {
 {
 	background-color: <?php echo $GLOBALS['cfg']['MainBackground']; ?>;
 	font-family: <?php echo $GLOBALS['cfg']['FontFamily']; ?>;
-	color: <?php echo $GLOBALS['cfg']['NaviColor']; ?>;
 }
 
 #pma_navigation a img
@@ -301,7 +300,7 @@ img.ic_b_home, img.ic_s_loggoff, img.ic_b_selboard, img.ic_b_docs, img.ic_b_sqlh
 #pma_navigation_tree li {
     white-space: nowrap;
     clear: both;
-    min-height: 16px;
+    min-height: 17px;
 }
 #pma_navigation_tree img {
     margin: 0;
@@ -412,7 +411,7 @@ li.fast_filter input {
     border: 1px solid #CCCCCC;
     color: #666666;
     font-family: "Open Sans","Segoe UI";
-	padding: 4px;
+	padding: 2px;
 }
 
 li.fast_filter span {
@@ -473,7 +472,7 @@ li.fast_filter.db_fast_filter {
 /* Quick warp links */
 .pma_quick_warp {
     margin-top: 5px;
-    margin-<?php echo $left; ?>: 2px;
+    margin-<?php echo $left; ?>: 10px;
     position: relative;
 }
 .pma_quick_warp .drop_list {
