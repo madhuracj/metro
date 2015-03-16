@@ -224,14 +224,9 @@ img.ic_b_home, img.ic_s_loggoff, img.ic_b_selboard, img.ic_b_docs, img.ic_b_sqlh
 
 /* Navigation tree*/
 #pma_navigation_tree {
-    position: absolute;
-	top: 150px;
-	bottom: 0px;
-	left: 10px;
-	width: 240px;
-	overflow-x: hidden;
-	overflow-y: auto;
-	z-index: 1000;
+    margin: 0;
+    margin-<?php echo $left; ?>: 10px;
+    overflow: hidden;
     height: 74%;
     position: relative;
 }
