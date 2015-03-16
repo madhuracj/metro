@@ -310,7 +310,7 @@ form.login label
   user-select: none;
 }
 
-#page_content {
+#page_content, #session_debug  {
     margin: 20px !important;
 }
 
