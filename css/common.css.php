@@ -2205,7 +2205,7 @@ label.desc sup {
     position: absolute;
 }
 
-code.sql, div.sqlvalidate, #inline_editor_outer
+.sqlOuter code.sql, div.sqlvalidate, #inline_editor_outer
 {
 	display: block;
 	padding: 1em;
