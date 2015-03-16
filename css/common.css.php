@@ -3790,7 +3790,19 @@ body .ui-corner-right,
 body .ui-corner-br {
 	border-bottom-right-radius: 0;
 }
-/* Override  jQuery-ui styling for buttons */
+/* Override  jQuery-ui styling for ui-dialog */
+body .ui-dialog {
+    padding: 0;
+}
+body .ui-dialog .ui-widget-header {
+    color: <?php echo $GLOBALS['cfg']['ButtonColor']; ?>;
+    border: none;
+    background-color: <?php echo $GLOBALS['cfg']['NaviBackground']; ?>;
+    background-image: none;
+}
+body .ui-dialog .ui-dialog-title {
+    padding: 5px;
+}
 body .ui-dialog .ui-dialog-buttonpane button {
 	font-family: <?php echo $GLOBALS['cfg']['FontFamily']; ?>;
 	color: <?php echo $GLOBALS['cfg']['ButtonColor']; ?>;
