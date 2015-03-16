@@ -3446,6 +3446,10 @@ table.show_create td {
     font-weight: bold;
 }
 
+.small_font {
+    font-size: smaller;
+}
+
 /* Console styles */
 #pma_console_container {
     width: 100%;
