@@ -765,7 +765,7 @@ fieldset .formelement
         width: 25%;
     }
     #foreign_keys.relationalTable td:first-child + td select {
-        width: 32%;
+        width: auto;
         margin-right: 1%;
     }
     #foreign_keys.relationalTable {
@@ -2967,6 +2967,10 @@ form#copyTable fieldset:not(.tblFooters):before
 }
 .toggleButton .container {
     position: absolute;
+}
+.toggleButton .container td {
+    background-image: none;
+    background: none;
 }
 .toggleButton .toggleOn {
     color: #fff;
