@@ -3802,6 +3802,7 @@ body .ui-dialog .ui-widget-header {
 }
 body .ui-dialog .ui-dialog-title {
     padding: 5px;
+    font-weight: normal;
 }
 body .ui-dialog .ui-dialog-buttonpane button {
 	font-family: <?php echo $GLOBALS['cfg']['FontFamily']; ?>;
