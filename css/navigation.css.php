@@ -131,7 +131,7 @@ if (! defined('PMA_MINIMUM_COMMON') && ! defined('TESTSUITE')) {
 	margin: 10px;
 }
 
-#pma_navigation #leftframelinks
+#pma_navigation #navipanellinks
 {
 	padding-top: 1em;
 	padding-bottom: 1em;
@@ -162,7 +162,7 @@ img.ic_b_home, img.ic_s_loggoff, img.ic_b_selboard, img.ic_b_docs, img.ic_b_sqlh
 	display: none;
 }
 
-#leftframelinks a
+#navipanellinks a
 {
 	display: inline-block;
 	height: 16px;
@@ -173,42 +173,36 @@ img.ic_b_home, img.ic_s_loggoff, img.ic_b_selboard, img.ic_b_docs, img.ic_b_sqlh
 	font-size: 15px;
 }
 
-#leftframelinks a:hover
+#navipanellinks a:hover
 {
 	color: <?php echo $GLOBALS['cfg']['ThColor']; ?>;
 }
 
-#leftframelinks a:first-child:before
+#navipanellinks a:first-child:before
 {
 	font-family: 'IcoMoon';
 	content: "!";
 }
 
-#leftframelinks a:nth-child(2):before
+#navipanellinks a:nth-child(2):before
 {
 	font-family: 'IcoMoon';
 	content: "\e040";
 }
 
-#leftframelinks a:nth-child(3):before
-{
-	font-family: 'IcoMoon';
-	content: "T";
-}
-
-#leftframelinks a:nth-child(4):before
+#navipanellinks a:nth-child(3):before
 {
 	font-family: 'IcoMoon';
 	content: "";
 }
 
-#leftframelinks a:nth-child(5):before
+#navipanellinks a:nth-child(4):before
 {
 	font-family: 'IcoMoon';
 	content: "";
 }
 
-#leftframelinks a:nth-child(6):before
+#navipanellinks a:nth-child(5):before
 {
 	font-family: 'IcoMoon';
 	content: "";
