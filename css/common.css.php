@@ -3794,7 +3794,15 @@ body .ui-corner-br {
 body .ui-dialog .ui-dialog-buttonpane button {
 	font-family: <?php echo $GLOBALS['cfg']['FontFamily']; ?>;
 	color: <?php echo $GLOBALS['cfg']['ButtonColor']; ?>;
-	background: <?php echo $GLOBALS['cfg']['NaviBackground']; ?>;
+	background-color: <?php echo $GLOBALS['cfg']['NaviBackground']; ?>;
 	background-image: none;
-	border: none;
+	border: 1px solid <?php echo $GLOBALS['cfg']['ButtonBackground']; ?>;
+}
+body .ui-dialog .ui-dialog-buttonpane button.ui-state-hover {
+	background-color: <?php echo $GLOBALS['cfg']['ButtonHover']; ?>;
+	border: 1px solid <?php echo $GLOBALS['cfg']['ButtonHover']; ?>;
+}
+body .ui-dialog .ui-dialog-buttonpane button.ui-state-active {
+	background-color: #333;
+	border: 1px solid #333;
 }
