@@ -2752,7 +2752,7 @@ form.create_table_form fieldset.tblFooters
 
 form#create_table_form_minimal fieldset:not(.tblFooters):before
 {
-	content: "CREATE TABLE";
+	content: "<?php echo __('Create table') ?>";
 	float: left;
 	font-family: <?php echo $GLOBALS['cfg']['FontFamilyFixed']; ?>;
 	height: 47px;
@@ -2775,9 +2775,13 @@ form#copyTable .tblFooters
 	display: block;
 }
 
+.operations_half_width fieldset:before {
+    text-transform: uppercase;
+}
+
 form#rename_db_form fieldset:not(.tblFooters):before
 {
-	content: "RENAME DB";
+	content: "<?php echo __('Rename database to:') ?>";
 	float: left;
 	font-family: <?php echo $GLOBALS['cfg']['FontFamilyFixed']; ?>;
 	height: 44px;
@@ -2787,7 +2791,7 @@ form#rename_db_form fieldset:not(.tblFooters):before
 
 form#copy_db_form fieldset:not(.tblFooters):before
 {
-	content: "COPY DB";
+	content: "<?php echo __('Copy database to:') ?>";
 	float: left;
 	font-family: <?php echo $GLOBALS['cfg']['FontFamilyFixed']; ?>;
 	height: 44px;
@@ -2797,7 +2801,7 @@ form#copy_db_form fieldset:not(.tblFooters):before
 
 form#change_db_charset_form fieldset:not(.tblFooters):before
 {
-	content: "ALTER TABLE CHARSET";
+	content: "<?php echo __('Collation:') ?>";
 	float: left;
 	font-family: <?php echo $GLOBALS['cfg']['FontFamilyFixed']; ?>;
 	height: 44px;
@@ -2807,7 +2811,7 @@ form#change_db_charset_form fieldset:not(.tblFooters):before
 
 form#alterTableOrderby fieldset:not(.tblFooters):before
 {
-	content: "ALTER TABLE ORBER BY";
+	content: "<?php echo __('Alter table order by') ?>";
 	float: left;
 	font-family: <?php echo $GLOBALS['cfg']['FontFamilyFixed']; ?>;
 	height: 44px;
@@ -2817,7 +2821,7 @@ form#alterTableOrderby fieldset:not(.tblFooters):before
 
 fieldset#fieldset_table_rename:before
 {
-	content: "RENAME TABLE";
+	content: "<?php echo __('Move table to (database.table):') ?>";
 	float: left;
 	font-family: <?php echo $GLOBALS['cfg']['FontFamilyFixed']; ?>;
 	height: 44px;
@@ -2855,7 +2859,7 @@ fieldset#fieldset_table_rename:before
 
 form#copyTable fieldset:not(.tblFooters):before
 {
-	content: "COPY TABLE";
+	content: "<?php echo __('Copy table to (database.table):') ?>";
 	float: left;
 	font-family: <?php echo $GLOBALS['cfg']['FontFamilyFixed']; ?>;
 	height: 44px;
