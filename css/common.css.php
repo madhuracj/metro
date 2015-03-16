@@ -701,7 +701,12 @@ table tr.even td:first-child input[type="checkbox"]
 #tablestructure td:first-child:before,
 .table_results td:not(.grid_edit):first-child:before,
 #tableuserrights td:first-child:before,
-#tableslistcontainer table.data td:first-child:before
+#tableslistcontainer table.data td:first-child:before,
+#versions td:first-child:before,
+#noversions td:first-child:before,
+#table_columns td:first-child:before,
+#dbspecificuserrights td:first-child:before,
+#tablespecificuserrights td:first-child:before
 {
 	font-family: 'IcoMoon';
 	content: "";
@@ -709,14 +714,18 @@ table tr.even td:first-child input[type="checkbox"]
 	cursor: default;
 	position: absolute;
 	padding: 2px;
-	left: 11px;
 }
 
 #tabledatabases tr.marked td:first-child:before,
 #tablestructure tr.marked td:first-child:before,
 .table_results tr.marked td:first-child:before,
 #tableuserrights tr.marked td:first-child:before,
-#tableslistcontainer table.data tr.marked td:first-child:before
+#tableslistcontainer table.data tr.marked td:first-child:before,
+#versions tr.marked td:first-child:before,
+#noversions tr.marked td:first-child:before,
+#table_columns tr.marked td:first-child:before,
+#dbspecificuserrights tr.marked td:first-child:before,
+#tablespecificuserrights tr.marked td:first-child:before
 {
 	font-family: 'IcoMoon';
 	content: "";
