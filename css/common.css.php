@@ -1337,6 +1337,10 @@ div#dataDisplay th {
     line-height: 2em;
 }
 
+table#tableFieldsId {
+    width: 100%;
+}
+
 /* Calendar */
 table.calendar {
     width: 100%;
@@ -2583,10 +2587,6 @@ table#index_columns select {
     padding: .2em;
 }
 
-.margin#change_column_dialog {
-    margin: 0 .5em;
-}
-
 /* config forms */
 .config-form ul.tabs {
     margin: 1.1em .2em 0;
@@ -3391,7 +3391,7 @@ div#page_content form#db_search_form.ajax fieldset {
     margin-top: -0.3em;
 }
 
-div#page_content div#tableslistcontainer, div#page_content div.notice, div#page_content div#result_query {
+div#page_content div#tableslistcontainer, div#page_content div.notice, div#page_content div.result_query {
     margin-top: 1em;
 }
 
