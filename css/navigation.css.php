@@ -263,6 +263,10 @@ img.ic_b_home, img.ic_s_loggoff, img.ic_b_selboard, img.ic_b_docs, img.ic_b_sqlh
     display: inline;
     opacity: 1.0;
 }
+#pma_navigation_tree_content a.hover_show_full {
+    position: relative;
+    z-index: 100;
+}
 #pma_navigation_tree a {
     color: <?php echo $GLOBALS['cfg']['NaviColor']; ?>;
 }
@@ -326,6 +330,8 @@ img.ic_b_home, img.ic_s_loggoff, img.ic_b_selboard, img.ic_b_docs, img.ic_b_sqlh
     display: block;
     border-<?php echo $left; ?>: 1px solid #616161;
     border-bottom: 1px solid #616161;
+    position: relative;
+    z-index: 0;
 }
 #pma_navigation_tree div.block i.first { /* Removes top segment */
     border-<?php echo $left; ?>: 0;
