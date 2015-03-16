@@ -427,6 +427,10 @@ li.fast_filter.db_fast_filter {
     min-height: 21px !important;
 }
 
+#pma_navigation_collapse {
+    padding-right: 2px;
+}
+
 #navigation_controls_outer.activePointer {
     background-color: transparent !important;
 }
