@@ -3088,6 +3088,10 @@ form.append_fields_form .tblFooters
     overflow: hidden;
 }
 
+.pma_table tbody td span code span {
+    display: inline;
+}
+
 .modal-copy input {
     display: block;
     width: 100%;
