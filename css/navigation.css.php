@@ -481,7 +481,7 @@ li.fast_filter.db_fast_filter {
     padding: 2px 0;
 }
 .pma_quick_warp .drop_button {
-    padding: 0 .3em;
+    padding: .2em .5em;
     border: 1px solid #ddd;
     background: #f2f2f2;
     cursor: pointer;
