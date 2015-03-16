@@ -1443,12 +1443,19 @@ div#tablestatistics table {
 	display: none;
 }
 
-#goto_pagetop {
+#goto_pagetop, #lock_page_icon {
     position: fixed;
     padding: 10px;
     top: 0;
-    <?php echo $right; ?>: 0;
     z-index: 900;
+}
+
+#goto_pagetop {
+    <?php echo $right; ?>: 0;
+}
+
+#lock_page_icon {
+    <?php echo $right; ?>: 2em;
 }
 
 #span_table_comment {
