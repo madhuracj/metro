@@ -3419,6 +3419,33 @@ div#page_content div#tableslistcontainer, div#page_content div.notice, div#page_
     margin-top: 1em;
 }
 
+table.show_create {
+    margin-top: 1em;
+}
+
+table.show_create td {
+    border-right: 1px solid #bbb;
+}
+
+#alias_modal table th {
+    vertical-align: middle;
+    padding-left: 1em;
+}
+
+#alias_modal label.col-2 {
+    min-width: 20%;
+    display: inline-block;
+}
+
+#alias_modal select {
+    width: 25%;
+    margin-right: 2em;
+}
+
+#alias_modal label {
+    font-weight: bold;
+}
+
 /* Console styles */
 #pma_console_container {
     width: 100%;
