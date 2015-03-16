@@ -761,14 +761,14 @@ fieldset .formelement
     fieldset .formelement {
         clear: none;
     }
-    #relationalTable td:first-child + td {
+    .relationalTable td:first-child + td {
         width: 25%;
     }
-    #relationalTable td:first-child + td select {
+    .relationalTable td:first-child + td select {
         width: 32%;
         margin-right: 1%;
     }
-    #relationalTable {
+    .relationalTable {
         width: 100%;
     }
 
