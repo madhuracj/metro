@@ -1676,9 +1676,18 @@ table#chartGrid div.monitorChart {
     overflow: hidden;
 }
 
-div#serverstatus div.tabLinks {
+div.tabLinks {
+    margin-left: 0.3em; {
     float: <?php echo $left; ?>;
-    padding-bottom: 10px;
+    padding: 5px 0px;
+}
+
+div.tabLinks a, div.tabLinks label {
+    margin-right: 7px;
+}
+
+div.tabLinks .icon {
+    margin: -0.2em 0.3em 0px 0px;
 }
 
 .popupContent {
