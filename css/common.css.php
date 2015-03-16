@@ -3805,6 +3805,10 @@ span.drag_icon {
     cursor: move;
 }
 
+.topmargin {
+    margin-top: 1em;
+}
+
 /* Override some jQuery-ui styling to have square corners */
 body .ui-corner-all,
 body .ui-corner-top,
