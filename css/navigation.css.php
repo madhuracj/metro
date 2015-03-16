@@ -241,6 +241,26 @@ img.ic_b_home, img.ic_s_loggoff, img.ic_b_selboard, img.ic_b_docs, img.ic_b_sqlh
     height: 74%;
     position: relative;
 }
+#pma_navigation_select_database {
+    text-align: left;
+    padding: 0px 0px 0px;
+    border: 0;
+    margin: 0;
+}
+
+#pma_navigation_db_select {
+    margin-top: 0.5em;
+    margin-<?php echo $left; ?>: 0.75em;
+}
+#pma_navigation_db_select select {
+    border: 1px solid #bbb;
+    border-top: 1px solid #bbb;
+    color: #333;
+    padding: 4px 6px;
+    margin: 0px 0px 0px;
+    width: 92%;
+    font-size: 1.11em;
+}
 #pma_navigation_tree_content {
     width: 100%;
     overflow: hidden;
