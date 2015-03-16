@@ -1659,8 +1659,14 @@ div#chartVariableSettings {
     margin-left: 10px;
 }
 
+table#chartGrid td {
+    padding: 3px;
+    margin: 0;
+}
+
 table#chartGrid div.monitorChart {
     background: #EBEBEB;
+    overflow: hidden;
 }
 
 div#serverstatus div.tabLinks {
