@@ -3217,11 +3217,6 @@ form.append_fields_form .tblFooters
     line-height: 1.5;
 }
 
-#page_content br
-{
-	display: none;
-}
-
 .navigation
 {
 	width: 100%;
