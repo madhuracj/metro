@@ -1681,7 +1681,7 @@ table#chartGrid div.monitorChart {
 }
 
 div.tabLinks {
-    margin-left: 0.3em; {
+    margin-left: 0.3em;
     float: <?php echo $left; ?>;
     padding: 5px 0px;
 }
