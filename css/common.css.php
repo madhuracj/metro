@@ -2828,6 +2828,16 @@ form#copyTable fieldset:not(.tblFooters):before
     margin-right: 1em;
 }
 
+form#tableOptionsForm fieldset:not(.tblFooters):before
+{
+    content: "<?php echo __('Table options') ?>";
+    float: left;
+    font-family: <?php echo $GLOBALS['cfg']['FontFamilyFixed']; ?>;
+    height: 44px;
+    line-height: 44px;
+    margin-right: 1em;
+}
+
 form#formDatabaseComment .tblFooters,
 form#create_table_form_minimal .tblFooters,
 form#rename_db_form .tblFooters,
@@ -2835,7 +2845,8 @@ form#copy_db_form .tblFooters,
 form#change_db_charset_form .tblFooters,
 form#alterTableOrderby .tblFooters,
 form#moveTableForm .tblFooters,
-form#copyTable .tblFooters
+form#copyTable .tblFooters,
+form#tableOptionsForm .tblFooters
 {
     margin-top: -40px;
 }
