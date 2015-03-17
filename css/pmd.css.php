@@ -8,8 +8,9 @@ if (! defined('PMA_MINIMUM_COMMON') && ! defined('TESTSUITE')) {
 
 /* Designer */
 .input_tab {
-    background-color: #A6C7E1;
+    background-color: #efefef;
     color: #000;
+    border: 1px solid #ccc;
 }
 
 .content_fullscreen {
