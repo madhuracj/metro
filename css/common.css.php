@@ -1677,8 +1677,6 @@ div.liveChart {
 }
 
 div#chartVariableSettings {
-    border: 1px solid #ddd;
-    background-color: #E6E6E6;
     margin-left: 10px;
 }
 
