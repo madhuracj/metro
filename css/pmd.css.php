@@ -494,7 +494,7 @@ h2.active {
     overflow: hidden;
     z-index: 50;
     padding: 2px;
-    margin-top: -40px;
+    margin-top: 0px;
     margin-left: -20px;
 }
 
