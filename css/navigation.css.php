@@ -313,7 +313,7 @@ img.ic_b_home, img.ic_s_loggoff, img.ic_b_selboard, img.ic_b_docs, img.ic_b_sqlh
 #pma_navigation_tree div.block {
     position: relative;
     width: 1.5em;
-    height: 1.5em;
+    height: 2em;
     min-width: 16px;
     min-height: 16px;
     float: <?php echo $left; ?>;
@@ -324,13 +324,14 @@ img.ic_b_home, img.ic_s_loggoff, img.ic_b_selboard, img.ic_b_docs, img.ic_b_sqlh
 #pma_navigation_tree div.block i,
 #pma_navigation_tree div.block b {
     width: 1.5em;
-    height: 1.5em;
+    height: 2em;
     min-width: 16px;
     min-height: 8px;
     position: absolute;
     bottom: 0.7em;
     <?php echo $left; ?>: 0.75em;
     z-index: 0;
+    margin-top: -4px;
 }
 #pma_navigation_tree div.block i { /* Top and right segments for the tree element connections */
     display: block;
