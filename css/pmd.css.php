@@ -270,7 +270,7 @@ a.M_butt:hover {
 }
 
 #layer_menu {
-    z-index: 100;
+    z-index: 98;
     position: relative;
     float: right;;
     background-color: #f6f6f6;
@@ -317,7 +317,7 @@ a.M_butt:hover {
 
 #layer_menu_sizer {
     background-image: url(<?php echo $_SESSION['PMA_Theme']->getImgPath('pmd/resize.png'); ?>);
-    cursor: nw-resize;
+    cursor: w-resize;
 }
 
 .panel {
