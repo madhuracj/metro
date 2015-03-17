@@ -221,38 +221,6 @@ canvas.pmd * {
     height: 10px;
 }
 
-.frams1 {
-    background: url(<?php echo $_SESSION['PMA_Theme']->getImgPath('pmd/1.png'); ?>) no-repeat right bottom;
-}
-
-.frams2 {
-    background: url(<?php echo $_SESSION['PMA_Theme']->getImgPath('pmd/2.png'); ?>) no-repeat left bottom;
-}
-
-.frams3 {
-    background: url(<?php echo $_SESSION['PMA_Theme']->getImgPath('pmd/3.png'); ?>) no-repeat left top;
-}
-
-.frams4 {
-    background: url(<?php echo $_SESSION['PMA_Theme']->getImgPath('pmd/4.png'); ?>) no-repeat right top;
-}
-
-.frams5 {
-    background: url(<?php echo $_SESSION['PMA_Theme']->getImgPath('pmd/5.png'); ?>) repeat-x center bottom;
-}
-
-.frams6 {
-    background: url(<?php echo $_SESSION['PMA_Theme']->getImgPath('pmd/6.png'); ?>) repeat-y left;
-}
-
-.frams7 {
-    background: url(<?php echo $_SESSION['PMA_Theme']->getImgPath('pmd/7.png'); ?>) repeat-x top;
-}
-
-.frams8 {
-    background: url(<?php echo $_SESSION['PMA_Theme']->getImgPath('pmd/8.png'); ?>) repeat-y right;
-}
-
 #osn_tab {
     position: absolute;
     background-color: #fff;
