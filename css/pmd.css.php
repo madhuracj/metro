@@ -190,16 +190,6 @@ canvas.pmd * {
     text-decoration: none;
 }
 
-.butt {
-    border: #4477aa solid 1px;
-    font-weight: bold;
-    height: 19px;
-    width: 70px;
-    background-color: #fff;
-    color: #000;
-    vertical-align: baseline;
-}
-
 .L_butt2_1 {
     padding-left: 5px;
     text-decoration: none;
