@@ -318,10 +318,22 @@ a.M_butt:hover {
     float: right;;
     background-color: #f6f6f6;
     border: #ccc solid 1px;
+    border-top: 0;
+    margin-top: -100px;
+    margin-right: -20px;
+}
+
+.content_fullscreen #layer_menu {
+    margin-right: 0px;
 }
 
 #layer_menu.left {
     float: left;
+    margin-left: -20px;
+}
+
+.content_fullscreen #layer_menu.left {
+    margin-left: 0px;
 }
 
 #layer_upd_relation {
@@ -521,16 +533,26 @@ h2.active {
     width: auto;
     height: auto;
     background: #efefef;
-    border: 1px solid grey;
+    border: 1px solid #ccc;
+    border-top: 0;
     overflow: hidden;
     z-index: 50;
     padding: 2px;
     margin-top: -40px;
-    margin-left: 0;
+    margin-left: -20px;
+}
+
+.content_fullscreen .side-menu {
+    margin-left: 0px;
 }
 
 .side-menu.right {
     float: right;
+    margin-right: -20px;
+}
+
+.content_fullscreen .side-menu.right {
+    margin-right: 0px;
 }
 
 .side-menu .hide {
@@ -544,17 +566,29 @@ h2.active {
 }
 
 .side-menu img,
+.side-menu span,
 .side-menu .text {
     float: left;
+    padding-left: 2px;
 }
 
 #name-panel {
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
     text-align: center;
     background: #efefef;
     font-size: 1.2em;
     padding: 10px;
     font-weight: bold;
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.content_fullscreen #name-panel {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 #container-form {
