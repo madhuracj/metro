@@ -276,7 +276,6 @@ a.M_butt:hover {
     background-color: #f6f6f6;
     border: #ccc solid 1px;
     border-top: 0;
-    margin-top: -100px;
     margin-right: -20px;
 }
 
