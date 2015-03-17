@@ -530,7 +530,6 @@ h2.active {
 
 #name-panel {
     border-bottom: 1px solid #ccc;
-    border-top: 1px solid #ccc;
     text-align: center;
     background: #efefef;
     font-size: 1.2em;
