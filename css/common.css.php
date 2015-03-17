@@ -2768,27 +2768,6 @@ form#create_table_form_minimal fieldset:not(.tblFooters):before
     margin-right: 1em;
 }
 
-form#formDatabaseComment .tblFooters,
-form#create_table_form_minimal .tblFooters,
-form#rename_db_form .tblFooters,
-form#copy_db_form .tblFooters,
-form#change_db_charset_form .tblFooters,
-form#alterTableOrderby .tblFooters,
-form#moveTableForm .tblFooters,
-form#copyTable .tblFooters
-{
-    margin-top: -40px;
-}
-
-#create_table_form_minimal
-{
-    display: block;
-}
-
-.operations_half_width fieldset:before {
-    text-transform: uppercase;
-}
-
 form#rename_db_form fieldset:not(.tblFooters):before
 {
     content: "<?php echo __('Rename database to:') ?>";
@@ -2839,6 +2818,37 @@ fieldset#fieldset_table_rename:before
     margin-right: 1em;
 }
 
+form#copyTable fieldset:not(.tblFooters):before
+{
+    content: "<?php echo __('Copy table to (database.table):') ?>";
+    float: left;
+    font-family: <?php echo $GLOBALS['cfg']['FontFamilyFixed']; ?>;
+    height: 44px;
+    line-height: 44px;
+    margin-right: 1em;
+}
+
+form#formDatabaseComment .tblFooters,
+form#create_table_form_minimal .tblFooters,
+form#rename_db_form .tblFooters,
+form#copy_db_form .tblFooters,
+form#change_db_charset_form .tblFooters,
+form#alterTableOrderby .tblFooters,
+form#moveTableForm .tblFooters,
+form#copyTable .tblFooters
+{
+    margin-top: -40px;
+}
+
+.operations_half_width fieldset:before {
+    text-transform: uppercase;
+}
+
+#create_table_form_minimal
+{
+    display: block;
+}
+
 #fieldset_zoom_search table th,
 #fieldset_zoom_search table td
 {
@@ -2865,16 +2875,6 @@ fieldset#fieldset_table_rename:before
 #add_user_dialog
 {
     margin: 20px !important;
-}
-
-form#copyTable fieldset:not(.tblFooters):before
-{
-    content: "<?php echo __('Copy table to (database.table):') ?>";
-    float: left;
-    font-family: <?php echo $GLOBALS['cfg']['FontFamilyFixed']; ?>;
-    height: 44px;
-    line-height: 44px;
-    margin-right: 1em;
 }
 
 .config-form .lastrow {
