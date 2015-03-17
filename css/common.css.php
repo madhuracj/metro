@@ -2747,6 +2747,16 @@ form.create_table_form fieldset.tblFooters
     border: none;
 }
 
+form#formDatabaseComment fieldset:not(.tblFooters):before {
+    content: "<?php echo __('Database comment:') ?>";
+    float: left;
+    font-family: <?php echo $GLOBALS['cfg']['FontFamilyFixed']; ?>;
+    text-transform: uppercase;
+    height: 47px;
+    line-height: 47px;
+    margin-right: 1em;
+}
+
 form#create_table_form_minimal fieldset:not(.tblFooters):before
 {
     content: "<?php echo __('Create table') ?>";
