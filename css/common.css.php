@@ -2747,95 +2747,53 @@ form.create_table_form fieldset.tblFooters
     border: none;
 }
 
+.operations_half_width fieldset:before {
+    text-transform: uppercase;
+}
+
+.operations_half_width fieldset:not(.tblFooters):before {
+    float: left;
+    font-family: <?php echo $GLOBALS['cfg']['FontFamilyFixed']; ?>;
+    text-transform: uppercase;
+    height: 47px;
+    line-height: 47px;
+    margin-right: 1em;
+}
+
 form#formDatabaseComment fieldset:not(.tblFooters):before {
     content: "<?php echo __('Database comment:') ?>";
-    float: left;
-    font-family: <?php echo $GLOBALS['cfg']['FontFamilyFixed']; ?>;
-    text-transform: uppercase;
-    height: 47px;
-    line-height: 47px;
-    margin-right: 1em;
 }
 
-form#create_table_form_minimal fieldset:not(.tblFooters):before
-{
+form#create_table_form_minimal fieldset:not(.tblFooters):before {
     content: "<?php echo __('Create table') ?>";
-    float: left;
-    font-family: <?php echo $GLOBALS['cfg']['FontFamilyFixed']; ?>;
-    text-transform: uppercase;
-    height: 47px;
-    line-height: 47px;
-    margin-right: 1em;
 }
 
-form#rename_db_form fieldset:not(.tblFooters):before
-{
+form#rename_db_form fieldset:not(.tblFooters):before {
     content: "<?php echo __('Rename database to:') ?>";
-    float: left;
-    font-family: <?php echo $GLOBALS['cfg']['FontFamilyFixed']; ?>;
-    height: 44px;
-    line-height: 44px;
-    margin-right: 1em;
 }
 
-form#copy_db_form fieldset:not(.tblFooters):before
-{
+form#copy_db_form fieldset:not(.tblFooters):before {
     content: "<?php echo __('Copy database to:') ?>";
-    float: left;
-    font-family: <?php echo $GLOBALS['cfg']['FontFamilyFixed']; ?>;
-    height: 44px;
-    line-height: 44px;
-    margin-right: 1em;
 }
 
-form#change_db_charset_form fieldset:not(.tblFooters):before
-{
+form#change_db_charset_form fieldset:not(.tblFooters):before {
     content: "<?php echo __('Collation:') ?>";
-    float: left;
-    font-family: <?php echo $GLOBALS['cfg']['FontFamilyFixed']; ?>;
-    height: 44px;
-    line-height: 44px;
-    margin-right: 1em;
 }
 
-form#alterTableOrderby fieldset:not(.tblFooters):before
-{
+form#alterTableOrderby fieldset:not(.tblFooters):before {
     content: "<?php echo __('Alter table order by') ?>";
-    float: left;
-    font-family: <?php echo $GLOBALS['cfg']['FontFamilyFixed']; ?>;
-    height: 44px;
-    line-height: 44px;
-    margin-right: 1em;
 }
 
-fieldset#fieldset_table_rename:before
-{
+fieldset#fieldset_table_rename:before {
     content: "<?php echo __('Move table to (database.table):') ?>";
-    float: left;
-    font-family: <?php echo $GLOBALS['cfg']['FontFamilyFixed']; ?>;
-    height: 44px;
-    line-height: 44px;
-    margin-right: 1em;
 }
 
-form#copyTable fieldset:not(.tblFooters):before
-{
+form#copyTable fieldset:not(.tblFooters):before {
     content: "<?php echo __('Copy table to (database.table):') ?>";
-    float: left;
-    font-family: <?php echo $GLOBALS['cfg']['FontFamilyFixed']; ?>;
-    height: 44px;
-    line-height: 44px;
-    margin-right: 1em;
 }
 
-form#tableOptionsForm fieldset:not(.tblFooters):before
-{
+form#tableOptionsForm fieldset:not(.tblFooters):before {
     content: "<?php echo __('Table options') ?>";
-    float: left;
-    font-family: <?php echo $GLOBALS['cfg']['FontFamilyFixed']; ?>;
-    height: 44px;
-    line-height: 44px;
-    margin-right: 1em;
 }
 
 form#formDatabaseComment .tblFooters,
@@ -2849,10 +2807,6 @@ form#copyTable .tblFooters,
 form#tableOptionsForm .tblFooters
 {
     margin-top: -40px;
-}
-
-.operations_half_width fieldset:before {
-    text-transform: uppercase;
 }
 
 #create_table_form_minimal
