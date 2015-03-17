@@ -28,27 +28,27 @@ if (! defined('PMA_MINIMUM_COMMON') && ! defined('TESTSUITE')) {
 
 #pma_navigation input[type=text]
 {
-	background-color: <?php echo $GLOBALS['cfg']['MainBackground']; ?>;
-	font-family: <?php echo $GLOBALS['cfg']['FontFamily']; ?>;
+    background-color: <?php echo $GLOBALS['cfg']['MainBackground']; ?>;
+    font-family: <?php echo $GLOBALS['cfg']['FontFamily']; ?>;
 }
 
 #pma_navigation a img
 {
-	border: 0;
+    border: 0;
 }
 
 #pma_navigation a:link,
 #pma_navigation a:visited,
 #pma_navigation a:active
 {
-	text-decoration: none;
-	color: <?php echo $GLOBALS['cfg']['NaviPointerColor']; ?>;
+    text-decoration: none;
+    color: <?php echo $GLOBALS['cfg']['NaviPointerColor']; ?>;
 }
 
 #pma_navigation select#select_server,
 #pma_navigation select#lightm_db
 {
-	width: 100%;
+    width: 100%;
 }
 
 /* buttons in some browsers (eg. Konqueror) are block elements,
@@ -56,7 +56,7 @@ if (! defined('PMA_MINIMUM_COMMON') && ! defined('TESTSUITE')) {
 
 #pma_navigation button
 {
-	display: inline;
+    display: inline;
 }
 
 #pma_navigation_content {
@@ -90,116 +90,116 @@ if (! defined('PMA_MINIMUM_COMMON') && ! defined('TESTSUITE')) {
 
 #pma_navigation #pmalogo:after
 {
-	font-family: 'Open Sans Extrabold';
-	text-transform: uppercase;
-	margin-left: 5px;
-	content: 'phpMyAdmin';
+    font-family: 'Open Sans Extrabold';
+    text-transform: uppercase;
+    margin-left: 5px;
+    content: 'phpMyAdmin';
 }
 
 #pma_navigation #pmalogo
 {
-	margin: 0px;
-	padding: 12px;
-	background: <?php echo $GLOBALS['cfg']['NaviBackground']; ?>;
-	color: <?php echo $GLOBALS['cfg']['ButtonColor']; ?>;
-	font-size: 14px;
-	cursor: default;
-	height: 15px;
-	line-height: 100%;
+    margin: 0px;
+    padding: 12px;
+    background: <?php echo $GLOBALS['cfg']['NaviBackground']; ?>;
+    color: <?php echo $GLOBALS['cfg']['ButtonColor']; ?>;
+    font-size: 14px;
+    cursor: default;
+    height: 15px;
+    line-height: 100%;
 }
 
 #pma_navigation #imgpmalogo
 {
-	display: none;
+    display: none;
 }
 
 #pma_navigation #recentTableList
 {
-	text-align: center;
-	padding: 10px;
+    text-align: center;
+    padding: 10px;
 }
 
 #pma_navigation #recentTableList select
 {
-	min-width: 100%;
+    min-width: 100%;
 }
 
 #pma_navigation #databaseList
 {
-	text-align: center;
-	margin: 10px;
+    text-align: center;
+    margin: 10px;
 }
 
 #pma_navigation #navipanellinks
 {
-	padding-top: 1em;
-	padding-bottom: 1em;
-	text-align: center;
-	background-color: <?php echo $GLOBALS['cfg']['BorderColor']; ?>;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    background-color: <?php echo $GLOBALS['cfg']['BorderColor']; ?>;
 }
 
 div#left_tableList li a:first-child:before
 {
-	color: <?php echo $GLOBALS['cfg']['NaviPointerColor']; ?>;
-	font-family: 'IcoMoon';
-	content: "";
-	margin: 10px;
+    color: <?php echo $GLOBALS['cfg']['NaviPointerColor']; ?>;
+    font-family: 'IcoMoon';
+    content: "";
+    margin: 10px;
 }
 
 div#left_tableList li:hover a:first-child:before
 {
-	color: <?php echo $GLOBALS['cfg']['ButtonColor']; ?>;
+    color: <?php echo $GLOBALS['cfg']['ButtonColor']; ?>;
 }
 
 img.ic_b_home, img.ic_s_loggoff, img.ic_b_selboard, img.ic_b_docs, img.ic_b_sqlhelp, img.ic_s_reload
 {
-	display: none;
+    display: none;
 }
 
 #navipanellinks a
 {
-	display: inline-block;
-	height: 16px;
-	width: 16px;
-	color: <?php echo $GLOBALS['cfg']['MainColor']; ?>;
-	margin-right: 10px;
-	padding: 5px;
-	font-size: 15px;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    color: <?php echo $GLOBALS['cfg']['MainColor']; ?>;
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 15px;
 }
 
 #navipanellinks a:hover
 {
-	color: <?php echo $GLOBALS['cfg']['ThColor']; ?>;
+    color: <?php echo $GLOBALS['cfg']['ThColor']; ?>;
 }
 
 #navipanellinks a:first-child:before
 {
-	font-family: 'IcoMoon';
-	content: "!";
+    font-family: 'IcoMoon';
+    content: "!";
 }
 
 #navipanellinks a:nth-child(2):before
 {
-	font-family: 'IcoMoon';
-	content: "\e040";
+    font-family: 'IcoMoon';
+    content: "\e040";
 }
 
 #navipanellinks a:nth-child(3):before
 {
-	font-family: 'IcoMoon';
-	content: "";
+    font-family: 'IcoMoon';
+    content: "";
 }
 
 #navipanellinks a:nth-child(4):before
 {
-	font-family: 'IcoMoon';
-	content: "";
+    font-family: 'IcoMoon';
+    content: "";
 }
 
 #navipanellinks a:nth-child(5):before
 {
-	font-family: 'IcoMoon';
-	content: "";
+    font-family: 'IcoMoon';
+    content: "";
 }
 
 
@@ -275,7 +275,7 @@ img.ic_b_home, img.ic_s_loggoff, img.ic_b_selboard, img.ic_b_docs, img.ic_b_sqlh
 }
 #pma_navigation_tree a:hover {
     text-decoration: none;
-	color: <?php echo $GLOBALS['cfg']['ThColor']; ?>;
+    color: <?php echo $GLOBALS['cfg']['ThColor']; ?>;
 }
 #pma_navigation_tree li.activePointer {
     color: <?php echo $GLOBALS['cfg']['ThColor']; ?>;
@@ -402,11 +402,11 @@ li.fast_filter {
 }
 li.fast_filter input {
     width: 100%;
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
     border: 1px solid #CCCCCC;
     color: #666666;
     font-family: "Open Sans","Segoe UI";
-	padding: 2px;
+    padding: 2px;
 }
 
 li.fast_filter span {
@@ -455,9 +455,9 @@ li.fast_filter.db_fast_filter {
 #pma_navigation_collapser {
     width: 20px;
     padding-top: 4px;
-	padding-bottom: 12px;
-	background: <?php echo $GLOBALS['cfg']['NaviBackground']; ?>;
-	border-bottom: 1px solid <?php echo $GLOBALS['cfg']['NaviBackground']; ?>;
+    padding-bottom: 12px;
+    background: <?php echo $GLOBALS['cfg']['NaviBackground']; ?>;
+    border-bottom: 1px solid <?php echo $GLOBALS['cfg']['NaviBackground']; ?>;
     line-height: 22px;
     color: #fff;
     position: fixed;

@@ -112,7 +112,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #f22;}
 }
 
 .CodeMirror * {
-	font-family: <?php echo $GLOBALS['cfg']['FontFamilyFixed']; ?>;
+    font-family: <?php echo $GLOBALS['cfg']['FontFamilyFixed']; ?>;
 }
 
 #inline_editor_outer .CodeMirror {

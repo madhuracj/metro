@@ -19,7 +19,6 @@ if (! defined('PMA_MINIMUM_COMMON') && ! defined('TESTSUITE')) {
 
 #canvas_outer {
     position: relative;
-	margin-top: 60px;
     width: 100%;
     display: block;
 }
@@ -27,7 +26,7 @@ if (! defined('PMA_MINIMUM_COMMON') && ! defined('TESTSUITE')) {
 #canvas {
     background-color: #fff;
     color: #000;
-	width: 100%;
+    width: 100%;
 }
 
 canvas.pmd {
@@ -57,7 +56,7 @@ canvas.pmd * {
     cursor: move;
     padding: 1px;
     font-weight: bold;
-	vertical-align: middle;
+    vertical-align: middle;
 }
 
 .tab_zag_2 {
@@ -65,8 +64,8 @@ canvas.pmd * {
     cursor: move;
     padding: 1px;
     font-weight: bold;
-	background-color: #f6f6f6;
-	vertical-align: middle;
+    background-color: #f6f6f6;
+    vertical-align: middle;
 }
 
 .tab_field {
