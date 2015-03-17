@@ -27,7 +27,6 @@ if (! defined('PMA_MINIMUM_COMMON') && ! defined('TESTSUITE')) {
 #canvas {
     background-color: #fff;
     color: #000;
-    width: 100%;
 }
 
 canvas.pmd {
