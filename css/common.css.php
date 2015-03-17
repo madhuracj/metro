@@ -705,7 +705,6 @@ table tr.even td:first-child input[type="checkbox"]
 #tableslistcontainer table.data td:first-child:before,
 #versions td:first-child:before,
 #noversions td:first-child:before,
-#table_columns td:first-child:before,
 #dbspecificuserrights td:first-child:before,
 #tablespecificuserrights td:first-child:before
 {
@@ -724,7 +723,6 @@ table tr.even td:first-child input[type="checkbox"]
 #tableslistcontainer table.data tr.marked td:first-child:before,
 #versions tr.marked td:first-child:before,
 #noversions tr.marked td:first-child:before,
-#table_columns tr.marked td:first-child:before,
 #dbspecificuserrights tr.marked td:first-child:before,
 #tablespecificuserrights tr.marked td:first-child:before
 {
