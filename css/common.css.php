@@ -2768,14 +2768,16 @@ form#create_table_form_minimal fieldset:not(.tblFooters):before
     margin-right: 1em;
 }
 
+form#formDatabaseComment .tblFooters,
 form#create_table_form_minimal .tblFooters,
 form#rename_db_form .tblFooters,
+form#copy_db_form .tblFooters,
 form#change_db_charset_form .tblFooters,
 form#alterTableOrderby .tblFooters,
 form#moveTableForm .tblFooters,
 form#copyTable .tblFooters
 {
-    margin-top: -68px;
+    margin-top: -40px;
 }
 
 #create_table_form_minimal
