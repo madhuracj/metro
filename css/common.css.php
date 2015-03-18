@@ -754,10 +754,6 @@ fieldset .formelement
 {
     float: <?php echo $left; ?>;
     margin-<?php echo $right; ?>: 0.5em;
-    /* IE */
-    white-space: nowrap;
-    min-height: 45px;
-    line-height: 45px;
 }
 
 @media all and (min-width: 1600px) {
