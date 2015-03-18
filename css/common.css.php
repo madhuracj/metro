@@ -433,8 +433,6 @@ th, th a
 }
 
 .column_heading,
-.table_results th:first-child,
-.sticky_columns th:first-child,
 #tableslistcontainer #table_columns th:first-child
 {
     border: 1px solid <?php echo $GLOBALS['cfg']['BorderColor']; ?>;
