@@ -694,9 +694,9 @@ div.tools a
     color: <?php echo $GLOBALS['cfg']['ThColor']; ?>;
     cursor: default;
     position: absolute;
-    padding: 2px;
+    padding: 4px;
     top: 0;
-    left: 9999px;
+    left: 9995px;
 }
 
 .chrome input[type="checkbox"]:indeterminate:before {
@@ -722,9 +722,9 @@ div.tools a
     color: <?php echo $GLOBALS['cfg']['ThColor']; ?>;
     cursor: default;
     position: absolute;
-    padding: 2px;
+    padding: 4px;
     top: 0;
-    left: 9999px;
+    left: 9995px;
 }
 
 .chrome input[type="radio"]:checked:before {
