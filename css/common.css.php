@@ -2739,10 +2739,6 @@ form#formDatabaseComment fieldset:not(.tblFooters):before {
     content: "<?php echo __('Database comment:') ?>";
 }
 
-form#create_table_form_minimal fieldset:not(.tblFooters):before {
-    content: "<?php echo __('Create table') ?>";
-}
-
 form#rename_db_form fieldset:not(.tblFooters):before {
     content: "<?php echo __('Rename database to:') ?>";
 }
@@ -2773,6 +2769,16 @@ form#tableOptionsForm fieldset:not(.tblFooters):before {
 
 form#tableOptionsForm input[name="comment"], form#tableOptionsForm select[name="tbl_collation"] {
     width: 130px;
+}
+
+form#create_table_form_minimal fieldset:not(.tblFooters):before {
+    content: "<?php echo __('Create table') ?>";
+    float: left;
+    font-family: <?php echo $GLOBALS['cfg']['FontFamilyFixed']; ?>;
+    text-transform: uppercase;
+    height: 47px;
+    line-height: 47px;
+    margin-right: 1em;
 }
 
 form#formDatabaseComment .tblFooters,
