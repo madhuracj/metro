@@ -685,47 +685,28 @@ div.tools a
     color: <?php echo $GLOBALS['cfg']['BlueHeader']; ?> !important;
 }
 
-table tr.odd td:first-child input[type="checkbox"],
-table tr.even td:first-child input[type="checkbox"]
-{
-    opacity: 0;
-    filter: alpha(opacity=0);
+.chrome input[type="checkbox"] {
+    left: -9999px;
+    position: relative;
 }
 
-#tabledatabases td:first-child:before,
-#tablestructure td:first-child:before,
-.table_results td:not(.grid_edit):first-child:before,
-#tableuserrights td:first-child:before,
-#tableslistcontainer table.data td:first-child:before,
-#versions td:first-child:before,
-#noversions td:first-child:before,
-#dbspecificuserrights td:first-child:before,
-#tablespecificuserrights td:first-child:before
-{
+.chrome input[type="checkbox"]:before {
     font-family: 'IcoMoon';
     content: "";
     color: <?php echo $GLOBALS['cfg']['ThColor']; ?>;
     cursor: default;
     position: absolute;
     padding: 2px;
+    top: 0;
+    left: 9999px;
 }
 
-#tabledatabases tr.marked td:first-child:before,
-#tablestructure tr.marked td:first-child:before,
-.table_results tr.marked td:first-child:before,
-#tableuserrights tr.marked td:first-child:before,
-#tableslistcontainer table.data tr.marked td:first-child:before,
-#versions tr.marked td:first-child:before,
-#noversions tr.marked td:first-child:before,
-#dbspecificuserrights tr.marked td:first-child:before,
-#tablespecificuserrights tr.marked td:first-child:before
-{
-    font-family: 'IcoMoon';
+.chrome input[type="checkbox"]:indeterminate:before {
     content: "";
-    color: <?php echo $GLOBALS['cfg']['ThColor']; ?>;
-    cursor: default;
-    position: absolute;
-    padding: 2px;
+}
+
+.chrome input[type="checkbox"]:checked:before {
+    content: "";
 }
 
 tr.noclick td:first-child:before
