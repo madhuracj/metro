@@ -707,6 +707,10 @@ div.tools a
     content: "";
 }
 
+.chrome .navigation input[type="checkbox"]:before {
+    color: #fff;
+}
+
 .chrome input[type="radio"] {
     left: -9999px;
     position: relative;
