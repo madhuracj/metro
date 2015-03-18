@@ -143,7 +143,6 @@ canvas.pmd * {
     cursor: default;
     width: 1px;
     color: #000;
-    background-image: url(<?php echo $_SESSION['PMA_Theme']->getImgPath('pmd/Header.png'); ?>);
     background-repeat: repeat-x;
 }
 
