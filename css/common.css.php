@@ -365,12 +365,6 @@ h2 a img {
     width: 100%;
 }
 
-.table_results td.data
-{
-    border-right: 1px solid #ddd;
-    border-left: 1px solid #ddd;
-}
-
 h3 {
     font-family: "open sans extrabold", "segoe black";
     text-transform: uppercase;
@@ -2794,6 +2788,10 @@ form#copyTable fieldset:not(.tblFooters):before {
 
 form#tableOptionsForm fieldset:not(.tblFooters):before {
     content: "<?php echo __('Table options') ?>";
+}
+
+form#tableOptionsForm input[name="comment"], form#tableOptionsForm select[name="tbl_collation"] {
+    width: 130px;
 }
 
 form#formDatabaseComment .tblFooters,
