@@ -2730,8 +2730,8 @@ fieldset .disabled-field td {
     background-color: #ddd;
 }
 
-form.create_table_form fieldset.tblFooters
-{
+form.create_table_form fieldset.tblFooters,
+form#multi_edit_central_columns fieldset.tblFooters {
     background: none;
     border: none;
 }
