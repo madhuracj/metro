@@ -433,7 +433,7 @@ th, th a
 }
 
 .column_heading,
-#tableslistcontainer #table_columns th:first-child
+.column_action
 {
     border: 1px solid <?php echo $GLOBALS['cfg']['BorderColor']; ?>;
     background-color: #f6f6f6;
