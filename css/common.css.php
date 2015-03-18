@@ -709,6 +709,26 @@ div.tools a
     content: "";
 }
 
+.chrome input[type="radio"] {
+    left: -9999px;
+    position: relative;
+}
+
+.chrome input[type="radio"]:before {
+    font-family: 'IcoMoon';
+    content: "";
+    color: <?php echo $GLOBALS['cfg']['ThColor']; ?>;
+    cursor: default;
+    position: absolute;
+    padding: 2px;
+    top: 0;
+    left: 9999px;
+}
+
+.chrome input[type="radio"]:checked:before {
+    content: "";
+}
+
 tr.noclick td:first-child:before
 {
     content: "";
