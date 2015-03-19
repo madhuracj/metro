@@ -1388,11 +1388,6 @@ div#tablestatistics table {
     vertical-align: middle;
 }
 
-#tabledatabases .ic_s_success
-{
-    background-position: 0 -1970px !important;
-}
-
 /* END server privileges */
 
 

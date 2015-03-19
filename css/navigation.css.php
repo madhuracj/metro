@@ -299,13 +299,6 @@ img.ic_b_home, img.ic_s_loggoff, img.ic_b_selboard, img.ic_b_docs, img.ic_b_sqlh
 #pma_navigation_tree img {
     margin: 0;
 }
-.expander .ic_b_plus {
-    background-position: 0 -849px !important;
-}
-
-.expander .ic_b_minus {
-    background-position: 0 -753px !important;
-}
 #pma_navigation_tree i {
     display: block;
 }
