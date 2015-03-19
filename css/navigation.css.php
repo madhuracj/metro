@@ -242,7 +242,6 @@ img.ic_b_home, img.ic_s_loggoff, img.ic_b_selboard, img.ic_b_docs, img.ic_b_sqlh
     padding: 4px 6px;
     margin: 0px 0px 0px;
     width: 92%;
-    font-size: 1.11em;
 }
 #pma_navigation_tree_content {
     width: 100%;
