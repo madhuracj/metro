@@ -3161,7 +3161,7 @@ form.append_fields_form .tblFooters
 
 .navigation input[type=submit]
 {
-    background: <?php echo $GLOBALS['cfg']['ButtonBackground']; ?>;
+    background: <?php echo $GLOBALS['cfg']['NaviBackground']; ?>;
     border: none;
     filter: none;
     margin: 5px;
