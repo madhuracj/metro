@@ -1474,11 +1474,6 @@ div#tablestatistics table {
     margin-<?php echo $left; ?>: .2em;
 }
 
-.ic_b_tblanalyse
-{
-    margin-left: 10px !important;
-}
-
 #textSQLDUMP {
     width: 95%;
     height: 95%;
@@ -2490,6 +2485,9 @@ input#input_import_file {
 #fieldsForm ul.table-structure-actions .submenu li span {
     padding: 0.3em;
     margin: 0.1em;
+}
+#structure-action-links a {
+    margin-<?php echo $right; ?>: 1em;
 }
 /**
  * Indexes
