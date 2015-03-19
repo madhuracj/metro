@@ -50,7 +50,7 @@ switch($scheme)
         $GLOBALS['cfg']['NaviColor']                = '#FFFFFF';
         $GLOBALS['cfg']['NaviBackground']           = '#004D60';
         $GLOBALS['cfg']['NaviBackgroundLight']      = '#04627C';
-        $GLOBALS['cfg']['NaviPointerColor']         = '#FFFFFF';
+        $GLOBALS['cfg']['NaviPointerColor']         = '#666666';
         $GLOBALS['cfg']['NaviPointerBackground']    = '#004D60';
         $GLOBALS['cfg']['NaviDatabaseNameColor']    = '#FFFFFF';
         $GLOBALS['cfg']['NaviHoverBackground']      = '#216475';
@@ -80,7 +80,7 @@ switch($scheme)
         $GLOBALS['cfg']['NaviColor']                = '#FFFFFF';
         $GLOBALS['cfg']['NaviBackground']           = '#780505';
         $GLOBALS['cfg']['NaviBackgroundLight']      = '#A10707';
-        $GLOBALS['cfg']['NaviPointerColor']         = '#FFFFFF';
+        $GLOBALS['cfg']['NaviPointerColor']         = '#666666';
         $GLOBALS['cfg']['NaviPointerBackground']    = '#780505';
         $GLOBALS['cfg']['NaviDatabaseNameColor']    = '#FFFFFF';
         $GLOBALS['cfg']['NaviHoverBackground']      = '#A10707';
@@ -110,7 +110,7 @@ switch($scheme)
         $GLOBALS['cfg']['NaviColor']                = '#FFFFFF';
         $GLOBALS['cfg']['NaviBackground']           = '#377796';
         $GLOBALS['cfg']['NaviBackgroundLight']      = '#428EB4';
-        $GLOBALS['cfg']['NaviPointerColor']         = '#FFFFFF';
+        $GLOBALS['cfg']['NaviPointerColor']         = '#666666';
         $GLOBALS['cfg']['NaviPointerBackground']    = '#377796';
         $GLOBALS['cfg']['NaviDatabaseNameColor']    = '#FFFFFF';
         $GLOBALS['cfg']['NaviHoverBackground']      = '#428EB4';
@@ -140,7 +140,7 @@ switch($scheme)
         $GLOBALS['cfg']['NaviColor']                = '#FFFFFF';
         $GLOBALS['cfg']['NaviBackground']           = '#666666';
         $GLOBALS['cfg']['NaviBackgroundLight']      = '#999999';
-        $GLOBALS['cfg']['NaviPointerColor']         = '#FFFFFF';
+        $GLOBALS['cfg']['NaviPointerColor']         = '#666666';
         $GLOBALS['cfg']['NaviPointerBackground']    = '#666666';
         $GLOBALS['cfg']['NaviDatabaseNameColor']    = '#FFFFFF';
         $GLOBALS['cfg']['NaviHoverBackground']      = '#999999';
