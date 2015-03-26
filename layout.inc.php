@@ -166,9 +166,4 @@ switch($scheme)
         break;
 }
 
-/* query window */
-
-$GLOBALS['cfg']['QueryWindowWidth']         = 600;
-$GLOBALS['cfg']['QueryWindowHeight']        = 400;
-
 ?>
