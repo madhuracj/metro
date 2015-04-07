@@ -1,5 +1,4 @@
 <?php
-
-$theme_name = 'Metro';
-$theme_full_version = '3.0';
+$theme_name = 'metro';
+$theme_full_version = '2.2';
 ?>
